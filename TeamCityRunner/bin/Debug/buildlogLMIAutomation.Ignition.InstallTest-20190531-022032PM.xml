@@ -1,0 +1,113 @@
+=> LMIAutomation.TestBase+TestBaseInit
+2019-05-31 14:20:34.786 -          Starting test run. Build information: 
+2019-05-31 14:20:34.801 -          
+
+Version         : lmiautomation-1.0.0.803-2-35949088-dirty
+Built on        : 2019-05-29 17:18:34.729127
+Built by        : premenyi
+Build computer  : HUBPA-R90QUN3B
+
+2019-05-31 14:20:34.910 -          Reading 'Live' website value from config file
+2019-05-31 14:20:34.910 -          'Live' website value in config file is 'Automation1'
+2019-05-31 14:20:34.910 -          Reading 'RC' website value from config file
+2019-05-31 14:20:34.910 -          'RC' website value in config file is 'Automation2'
+2019-05-31 14:20:34.910 -          Reading 'Dummy' website value from config file
+2019-05-31 14:20:34.910 -          'Dummy' website value in config file is 'Automation3'
+2019-05-31 14:20:35.004 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 14:20:35.004 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 14:20:35.004 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 14:20:35.020 -          <Central> - 
+2019-05-31 14:20:35.020 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:35.020 -          <Central> - 
+2019-05-31 14:20:35.020 -          <Central> - 
+2019-05-31 14:20:35.020 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:35.020 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:35.020 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:20:35.020 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:20:35.020 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:20:35.645 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:35.645 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:35.645 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:35.645 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:20:35.645 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:35.645 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:20:35.691 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:35.691 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:35.691 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:20:35.801 -          <Central> - 
+2019-05-31 14:20:35.801 -          <Central> - 
+2019-05-31 14:20:35.801 -          <Central> - 
+2019-05-31 14:20:35.801 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:35.801 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:35.801 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:35.801 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 14:20:35.801 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 14:20:35.801 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 14:20:35.801 -          <Central> - Request cookie: csrftoken=QjfZ599yFx4zPJwQSjzbFaccAg60nbxgkHbOUBnlB5F3uyqCiQNgc9lBeU6Cusyh
+2019-05-31 14:20:35.801 -          <Central> - Request cookie: csrftoken=PLhwiJSB4jqUMWknrSeJT78IiwItbB7bBmQEqPSOnKFUoF9qHIFIzRDBSwYKIX0n
+2019-05-31 14:20:35.801 -          <Central> - Request cookie: csrftoken=ajtMk3tJW4mM3PQZ0v3FlRTEcD6EcJVz9Hf26qEMwA3CXBijSfd93Jb9zX7Rodvl
+2019-05-31 14:20:38.832 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:38.832 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:38.832 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 14:20:38.832 -          <Central> - 
+2019-05-31 14:20:38.832 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:38.832 -          <Central> - GET https://lmiautomation3.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_q60vAFT02rkEPY1NMeIk5BTYNlBheQT8HE5uWgQssRkAz11sOkttY4XpnI5MGl96
+2019-05-31 14:20:38.926 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:38.926 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:38.926 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 14:20:38.942 -          <Central> - 
+2019-05-31 14:20:38.942 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:38.942 -          <Central> - GET https://lmiautomation2.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_FYs9C4BhQO4IpK6S53gy1L8Csv4yGkizNqrCj19HE7fVyf8Idg5Om94HzB7f1ZCy
+2019-05-31 14:20:40.316 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:40.316 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:40.316 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 14:20:40.316 -          <Central> - 
+2019-05-31 14:20:40.316 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:20:40.316 -          <Central> - GET https://lmiautomation1.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_hCDFCSI7Wlu2a6WW2Me0UXBdalsCv4H1cG2pprWmddEoXf50viAgyAsg5qZAn008
+2019-05-31 14:20:46.458 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:46.458 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:46.458 -          <Central> - Response Uri: https://lmiautomation2.dev.3amlabs.net/central/Central.aspx
+2019-05-31 14:20:46.458 -          Environment: Automation2 wake up succeeded: True
+2019-05-31 14:20:46.879 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:20:46.879 -          <Central> - Response Status-Code: OK
+2019-05-31 14:20:46.879 -          <Central> - Response Uri: https://lmiautomation3.dev.3amlabs.net/central/Central.aspx
+2019-05-31 14:20:46.879 -          Environment: Automation3 wake up succeeded: True
+2019-05-31 14:21:26.083 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:26.083 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:26.083 -          <Central> - Response Uri: https://lmiautomation1.dev.3amlabs.net/central/Central.aspx
+2019-05-31 14:21:26.098 -          Environment: Automation1 wake up succeeded: True
+=> LMIAutomation.Ignition.InstallTest
+2019-05-31 14:21:26.145 -    Step: FixtureSetup
+2019-05-31 14:21:26.145 -          Starting CleanUp!
+2019-05-31 14:21:26.504 -          'chromedriver' process is not running.
+2019-05-31 14:21:26.520 -          'chrome' process is not running.
+2019-05-31 14:21:26.520 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 14:21:26.520 -          'msiexec' process is not running.
+2019-05-31 14:21:26.520 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 14:21:26.520 -          Stopping Toolkit
+2019-05-31 14:21:26.520 -          'LogMeInToolkit' process is not running.
+2019-05-31 14:21:26.520 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 14:21:26.520 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 14:21:26.520 -          Uninstall Host
+2019-05-31 14:21:26.520 -          Cert NOT found
+2019-05-31 14:21:26.536 -          Uninstall successful!
+2019-05-31 14:21:26.536 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 14:21:26.536 -          Stopping Ignition
+2019-05-31 14:21:26.536 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:26.536 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:26.536 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:26.551 -          Uninstall Ignition
+2019-05-31 14:21:26.551 -          Uninstall successful.
+2019-05-31 14:21:26.551 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 14:21:26.551 -          Stopping Ignition
+2019-05-31 14:21:26.551 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:26.551 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:26.551 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:26.551 -          Uninstall Ignition
+2019-05-31 14:21:26.551 -          Uninstall successful.
+2019-05-31 14:21:26.551 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 14:21:26.551 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 14:21:26.598 -          Changing time to 05/31/2019 14:21:26
+2019-05-31 14:21:26.630 -   Error: ChangeOSTime failed with errorcode: 1314, File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 80
+2019-05-31 14:21:26.630 -   Error: RestoreHostsFile failed: Access to the path 'C:\Windows\system32\drivers\etc\hosts' is denied., File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 123
+2019-05-31 14:21:26.676 -    Step: FixtureTeardown

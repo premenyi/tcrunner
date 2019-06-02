@@ -1,0 +1,411 @@
+=> LMIAutomation.TestBase+TestBaseInit
+2019-05-31 11:52:39.671 -          Starting test run. Build information: 
+2019-05-31 11:52:39.687 -          
+
+Version         : lmiautomation-1.0.0.803-2-35949088-dirty
+Built on        : 2019-05-29 17:18:34.729127
+Built by        : premenyi
+Build computer  : HUBPA-R90QUN3B
+
+2019-05-31 11:52:39.889 -          Reading 'Live' website value from config file
+2019-05-31 11:52:39.889 -          'Live' website value in config file is 'Automation1'
+2019-05-31 11:52:39.889 -          Reading 'RC' website value from config file
+2019-05-31 11:52:39.889 -          'RC' website value in config file is 'Automation2'
+2019-05-31 11:52:39.889 -          Reading 'Dummy' website value from config file
+2019-05-31 11:52:39.889 -          'Dummy' website value in config file is 'Automation3'
+2019-05-31 11:52:40.061 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 11:52:40.061 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 11:52:40.061 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 11:52:40.077 -          <Central> - 
+2019-05-31 11:52:40.077 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:40.077 -          <Central> - 
+2019-05-31 11:52:40.077 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:40.077 -          <Central> - 
+2019-05-31 11:52:40.077 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:40.077 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:52:40.077 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:52:40.077 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:52:41.467 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:52:41.467 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:52:41.467 -          <Central> - Response Status-Code: OK
+2019-05-31 11:52:41.467 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:52:41.467 -          <Central> - Response Status-Code: OK
+2019-05-31 11:52:41.467 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:52:41.530 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:52:41.530 -          <Central> - Response Status-Code: OK
+2019-05-31 11:52:41.530 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:52:41.748 -          <Central> - 
+2019-05-31 11:52:41.748 -          <Central> - 
+2019-05-31 11:52:41.748 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:41.748 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 11:52:41.748 -          <Central> - 
+2019-05-31 11:52:41.748 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:41.748 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:41.748 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 11:52:41.748 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 11:52:41.748 -          <Central> - Request cookie: csrftoken=MxMTh31g0VOuY2seNGDSJBOy8HhQfoz1Pv1ehV1TCpQf0luSlhgcaqNAdBLzeVJC
+2019-05-31 11:52:41.748 -          <Central> - Request cookie: csrftoken=ocHHnmZKqNdCpil1JnGmKE0TsYFXDxsfuFyuKcNlQ8RcgUHG7Uq6pkP7o2GLSbzf
+2019-05-31 11:52:41.764 -          <Central> - Request cookie: csrftoken=wVxQP7F6x5JHpQGOPEfxkYgnJxLG2DygzqsCojYypkNuUb4pTkXvnisduYIF4EGR
+2019-05-31 11:52:43.359 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:52:43.359 -          <Central> - Response Status-Code: OK
+2019-05-31 11:52:43.359 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 11:52:43.389 -          <Central> - 
+2019-05-31 11:52:43.389 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:43.389 -          <Central> - GET https://lmiautomation3.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_8iToEALONWwWUfDpcPZV7Z7Gb4SjKkpT2Y13MmyyTVBlo6mkn8bAw9dyjS1Ao27m
+2019-05-31 11:52:43.483 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:52:43.483 -          <Central> - Response Status-Code: OK
+2019-05-31 11:52:43.483 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 11:52:43.483 -          <Central> - 
+2019-05-31 11:52:43.483 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:43.499 -          <Central> - GET https://lmiautomation1.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_2jIZ3vEUtp2evkLm6kpXmX2Z9LDSkTZjpo8X5TqlAv6vlvjOkXBCdFsY5jk7TKbz
+2019-05-31 11:52:45.531 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:52:45.531 -          <Central> - Response Status-Code: OK
+2019-05-31 11:52:45.531 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 11:52:45.531 -          <Central> - 
+2019-05-31 11:52:45.531 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:52:45.531 -          <Central> - GET https://lmiautomation2.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_W8GaqtLZcqyvMTBkqQMByBf1lh74LTY7RJQtI1PutZPB4mpNICX9c9dX7uC8ctLA
+2019-05-31 11:53:07.155 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:53:07.155 -          <Central> - Response Status-Code: OK
+2019-05-31 11:53:07.155 -          <Central> - Response Uri: https://lmiautomation1.dev.3amlabs.net/central/Central.aspx
+2019-05-31 11:53:07.170 -          Environment: Automation1 wake up succeeded: True
+2019-05-31 11:54:46.389 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:54:46.389 -          <Central> - Response Status-Code: OK
+2019-05-31 11:54:46.389 -          <Central> - Response Uri: https://lmiautomation3.dev.3amlabs.net/central/Central.aspx
+2019-05-31 11:54:46.389 -          Environment: Automation3 wake up succeeded: True
+2019-05-31 11:54:48.577 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:54:48.577 -          <Central> - Response Status-Code: OK
+2019-05-31 11:54:48.577 -          <Central> - Response Uri: https://lmiautomation2.dev.3amlabs.net/central/Central.aspx
+2019-05-31 11:54:48.592 -          Environment: Automation2 wake up succeeded: True
+=> LMIAutomation.Ignition.InstallTest
+2019-05-31 11:54:48.811 -    Step: FixtureSetup
+2019-05-31 11:54:48.827 -          Starting CleanUp!
+2019-05-31 11:54:50.671 -          'chromedriver' process is not running.
+2019-05-31 11:54:50.705 -          'chrome' process is not running.
+2019-05-31 11:54:50.705 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 11:54:50.733 -          'msiexec' process is not running.
+2019-05-31 11:54:50.733 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 11:54:50.733 -          Stopping Toolkit
+2019-05-31 11:54:50.749 -          'LogMeInToolkit' process is not running.
+2019-05-31 11:54:50.749 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 11:54:50.749 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 11:54:50.765 -          Uninstall Host
+2019-05-31 11:54:50.796 -          Cert NOT found
+2019-05-31 11:54:50.827 -          Uninstall successful!
+2019-05-31 11:54:50.827 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 11:54:50.827 -          Stopping Ignition
+2019-05-31 11:54:50.842 -          'LMIIgnition' process is not running.
+2019-05-31 11:54:50.842 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:54:50.842 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:54:50.842 -          Uninstall Ignition
+2019-05-31 11:54:50.859 -          Uninstall successful.
+2019-05-31 11:54:50.875 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 11:54:50.875 -          Stopping Ignition
+2019-05-31 11:54:50.875 -          'LMIIgnition' process is not running.
+2019-05-31 11:54:50.875 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:54:50.875 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:54:50.875 -          Uninstall Ignition
+2019-05-31 11:54:50.890 -          Uninstall successful.
+2019-05-31 11:54:50.890 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 11:54:50.890 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 11:54:51.014 -          Changing time to 05/31/2019 11:54:50
+2019-05-31 11:54:50.812 -          Changing OS time successful
+=> LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall
+2019-05-31 11:54:50.894 -    Step: TestBase Setup
+2019-05-31 11:54:50.894 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 11:54:50.910 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:54:50.941 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:54:50.941 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:54:50.941 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:54:50.941 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:54:50.941 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:54:50.941 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:54:50.957 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 11:54:50.957 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 11:54:50.957 -    Step: TestSetup
+2019-05-31 11:54:50.957 -          Enabling client Trace level log
+2019-05-31 11:54:50.973 -    Step: TestCase STARTED: 'LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall' ---------------------------------------------------------------------------------------------------------
+2019-05-31 11:54:50.973 -          Reading 'RC' website value from config file
+2019-05-31 11:54:50.973 -          'RC' website value in config file is 'Automation2'
+2019-05-31 11:54:50.988 -          Setting HomeSite to lmiautomation2.dev.3amlabs.net for Client
+2019-05-31 11:54:50.988 -          Redirecting update.logmein.com to 192.168.0.162.
+2019-05-31 11:54:51.035 -          Get all builds for lmiignition from Artifactory
+2019-05-31 11:54:53.003 -          Downloading build: /lmiignition-1.3.0.4589-snapshot+win32.develop.tgz
+2019-05-31 11:54:53.003 -          'C:\Users\admin\AppData\Local\Temp\ApploaderTemp\lmiignition-1.3.0.4589-snapshot+win32.develop.tgz' already downloaded
+2019-05-31 11:54:54.082 -          MD5 hash of existing tgz file (324a5d3264b171ada57503aaa9c93340), and hash of the build on artifactory (324a5d3264b171ada57503aaa9c93340) are the same, no need to download again.
+2019-05-31 11:54:54.082 -          MD5 hash of existing tgz file (324a5d3264b171ada57503aaa9c93340), and hash of the build on artifactory (324a5d3264b171ada57503aaa9c93340) are different.
+2019-05-31 11:54:54.082 -          Downloading build from Europe artifactory.
+2019-05-31 11:55:10.722 -          Extracting downloaded tgz...
+2019-05-31 11:55:12.348 -          Install Ignition 'LogMeInIgnition.msi'
+2019-05-31 11:55:12.348 -          Ignition GRPC prepared
+2019-05-31 11:55:12.363 -          Saving install log to 'C:\Users\admin\AppData\Local\Temp\Appsettings\ignition_install_20190531_115512.log'
+2019-05-31 11:55:16.206 -          Install successful.
+2019-05-31 11:55:16.206 -          Waiting for: 'The software is up-to-date' in log file.
+2019-05-31 11:55:16.222 -          Starting Ignition
+2019-05-31 11:55:16.488 -          Waiting for: 'Changed current profile' in log file.
+2019-05-31 11:55:28.785 -          '2019-05-31 11:55:28.472 - Info      - LogMeInIgnition:4604 - Select the only profile we have. -  - Changed current profile Account Holder of stageDB,中英字典-_?:ÉŰÁÉ$¤ß$Testing,stédszdébé, -'"+bármi lehet itt <>#&@ ' FOUND!
+2019-05-31 11:55:31.770 -          '2019-05-31 11:55:30.925 - Info      - LogMeInIgnition:4604 -  -  - DESKTOP-GU5Q3ES\admin - 04604 - 0x000019D8 - AutoUpdate - The software is up-to-date.' FOUND!
+2019-05-31 11:55:31.816 -          Current IgnitionInterface.Application.WinIgnitionApplication version is: 1.3.0.4589
+2019-05-31 11:55:31.909 -          Current PluginInterface.Application.WinClientPluginApplication version is: 1.0.0.4442
+2019-05-31 11:55:31.909 -          Checking install
+2019-05-31 11:55:31.909 -          File list OK!
+2019-05-31 11:55:31.909 -          Checking Signature
+2019-05-31 11:55:38.113 -          Elapsed 0 minutes 5 seconds...
+2019-05-31 11:55:38.707 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianDll.dll has valid sha256RSA signature.
+2019-05-31 11:55:38.926 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianEvt.dll has valid sha256RSA signature.
+2019-05-31 11:55:39.270 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianSvc.exe has valid sha256RSA signature.
+2019-05-31 11:55:40.082 -          C:\Program Files (x86)\LogMeIn Ignition\LMIIgnition.exe has valid sha256RSA signature.
+2019-05-31 11:55:40.411 -          C:\Program Files (x86)\LogMeIn Ignition\LMIProxyHelper.exe has valid sha256RSA signature.
+2019-05-31 11:55:40.988 -          C:\Program Files (x86)\LogMeIn Ignition\RACtrl.dll has valid sha256RSA signature.
+2019-05-31 11:55:41.113 -          C:\Program Files (x86)\LogMeIn Ignition\RACtrlKeyHook.dll has valid sha256RSA signature.
+2019-05-31 11:55:41.113 -          Signature OK!
+2019-05-31 11:55:41.128 -          Searching for crash dumps.
+2019-05-31 11:55:41.128 -    Step: TestCase PASSED: 'LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall' ----------------------------------------------------------------------------------------------------------
+2019-05-31 11:55:41.128 -          Starting CleanUp!
+2019-05-31 11:55:41.128 -          'chromedriver' process is not running.
+2019-05-31 11:55:41.128 -          'chrome' process is not running.
+2019-05-31 11:55:41.128 -          Deleting HKEY_CURRENT_USER\Software\Classes\logmein from registry
+2019-05-31 11:55:41.144 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 11:55:41.144 -          Deleting file: C:\Users\admin\AppData\Local\Temp\Appsettings\ignition_install_20190531_115512.log
+2019-05-31 11:55:41.144 -          Stopping process:
+2019-05-31 11:55:41.144 -          	Name:msiexec: ID:2752
+2019-05-31 11:55:41.144 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 11:55:41.160 -          'msiexec' process stopped.
+2019-05-31 11:55:41.160 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 11:55:41.160 -          Stopping Toolkit
+2019-05-31 11:55:41.160 -          'LogMeInToolkit' process is not running.
+2019-05-31 11:55:41.160 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 11:55:41.175 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 11:55:41.175 -          Uninstall Host
+2019-05-31 11:55:41.191 -          Cert NOT found
+2019-05-31 11:55:41.191 -          Uninstall successful!
+2019-05-31 11:55:41.191 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 11:55:41.191 -          Stopping Ignition
+2019-05-31 11:55:41.207 -          Stopping process:
+2019-05-31 11:55:41.207 -          	Name:LMIIgnition: ID:4604
+2019-05-31 11:55:41.207 -          'LMIIgnition' process stopped.
+2019-05-31 11:55:41.207 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:55:42.535 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:55:42.535 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:55:42.535 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:55:42.535 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:55:42.535 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:55:42.535 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:55:42.550 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:55:42.550 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:55:43.238 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:55:43.238 -          Cleanup GRPC from: C:\Program Files (x86)\LogMeIn Ignition
+2019-05-31 11:55:43.238 -          Ignition GRPC cleaned up.
+2019-05-31 11:55:43.238 -          Uninstall Ignition
+2019-05-31 11:55:46.769 -          Uninstall successful.
+2019-05-31 11:55:46.769 -          Deleting log folder: 'C:\Users\admin\AppData\Local\LogMeInIgnition'
+2019-05-31 11:55:46.769 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 11:55:46.769 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 11:55:46.769 -          Stopping Ignition
+2019-05-31 11:55:46.769 -          'LMIIgnition' process is not running.
+2019-05-31 11:55:46.769 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:55:46.785 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:55:46.785 -          Uninstall Ignition
+2019-05-31 11:55:46.785 -          Uninstall successful.
+2019-05-31 11:55:46.785 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 11:55:46.785 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 11:55:46.785 -          Deleting log folder: 'C:\ProgramData\LogMeIn'
+2019-05-31 11:55:46.785 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 11:55:46.832 -          Changing time to 05/31/2019 11:55:46
+2019-05-31 11:55:46.869 -          Changing OS time successful
+2019-05-31 11:55:46.874 -    Step: TestTeardown
+2019-05-31 11:55:46.874 -    Step: TestBase TearDown
+=> LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year
+2019-05-31 11:55:46.890 -    Step: TestBase Setup
+2019-05-31 11:55:46.890 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 11:55:46.890 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:55:46.890 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:55:46.890 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:55:46.890 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:55:46.890 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:55:46.890 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:55:46.890 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:55:46.890 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 11:55:46.890 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 11:55:46.890 -    Step: TestSetup
+2019-05-31 11:55:46.890 -          Enabling client Trace level log
+2019-05-31 11:55:46.890 -    Step: TestCase STARTED: 'LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year' ---------------------------------------------------------------------------------------------------
+2019-05-31 11:55:46.890 -          Reading 'RC' website value from config file
+2019-05-31 11:55:46.890 -          'RC' website value in config file is 'Automation2'
+2019-05-31 11:55:46.890 -          Setting HomeSite to lmiautomation2.dev.3amlabs.net for Client
+2019-05-31 11:55:46.890 -          Redirecting update.logmein.com to 192.168.0.162.
+2019-05-31 11:55:46.906 -          Get all builds for lmiignition from Artifactory
+2019-05-31 11:55:47.515 -          Downloading build: /lmiignition-1.3.0.4589-snapshot+win32.develop.tgz
+2019-05-31 11:55:47.515 -          'C:\Users\admin\AppData\Local\Temp\ApploaderTemp\lmiignition-1.3.0.4589-snapshot+win32.develop.tgz' already downloaded
+2019-05-31 11:55:48.343 -          MD5 hash of existing tgz file (324a5d3264b171ada57503aaa9c93340), and hash of the build on artifactory (324a5d3264b171ada57503aaa9c93340) are the same, no need to download again.
+2019-05-31 11:55:48.343 -          MD5 hash of existing tgz file (324a5d3264b171ada57503aaa9c93340), and hash of the build on artifactory (324a5d3264b171ada57503aaa9c93340) are different.
+2019-05-31 11:55:48.343 -          Downloading build from Europe artifactory.
+2019-05-31 11:56:03.625 -          Extracting downloaded tgz...
+2019-05-31 11:56:05.281 -          Install Ignition 'LogMeInIgnition.msi'
+2019-05-31 11:56:05.296 -          Ignition GRPC prepared
+2019-05-31 11:56:05.296 -          Saving install log to 'C:\Users\admin\AppData\Local\Temp\Appsettings\ignition_install_20190531_115605.log'
+2019-05-31 11:56:07.921 -          Install successful.
+2019-05-31 11:56:07.921 -          Waiting for: 'The software is up-to-date' in log file.
+2019-05-31 11:56:07.921 -          Starting Ignition
+2019-05-31 11:56:08.156 -          Waiting for: 'Changed current profile' in log file.
+2019-05-31 11:56:24.406 -          '2019-05-31 11:56:24.296 - Info      - LogMeInIgnition:2108 -  -  - DESKTOP-GU5Q3ES\admin - 02108 - 0x00001A4C - AutoUpdate - The software is up-to-date.' FOUND!
+2019-05-31 11:56:24.531 -          '2019-05-31 11:56:23.750 - Info      - LogMeInIgnition:2108 - Select the only profile we have. -  - Changed current profile Account Holder of stageDB,中英字典-_?:ÉŰÁÉ$¤ß$Testing,stédszdébé, -'"+bármi lehet itt <>#&@ ' FOUND!
+2019-05-31 11:56:24.546 -          Current IgnitionInterface.Application.WinIgnitionApplication version is: 1.3.0.4589
+2019-05-31 11:56:24.546 -          Checking: C:\Program Files (x86)\LogMeIn Ignition\RACtrl.dll
+2019-05-31 11:56:24.593 -          All right, the copyright info is present and actual
+2019-05-31 11:56:24.593 -          Checking: C:\Program Files (x86)\LogMeIn Ignition\LMIIgnition.exe
+2019-05-31 11:56:24.593 -          All right, the copyright info is present and actual
+2019-05-31 11:56:24.608 -          Searching for crash dumps.
+2019-05-31 11:56:24.608 -    Step: TestCase PASSED: 'LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year' ----------------------------------------------------------------------------------------------------
+2019-05-31 11:56:24.608 -          Starting CleanUp!
+2019-05-31 11:56:24.608 -          'chromedriver' process is not running.
+2019-05-31 11:56:24.624 -          'chrome' process is not running.
+2019-05-31 11:56:24.624 -          Deleting HKEY_CURRENT_USER\Software\Classes\logmein from registry
+2019-05-31 11:56:24.624 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 11:56:24.624 -          Deleting file: C:\Users\admin\AppData\Local\Temp\Appsettings\ignition_install_20190531_115605.log
+2019-05-31 11:56:24.640 -          Stopping process:
+2019-05-31 11:56:24.640 -          	Name:msiexec: ID:1076
+2019-05-31 11:56:24.640 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 11:56:24.640 -          'msiexec' process stopped.
+2019-05-31 11:56:24.640 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 11:56:24.640 -          Stopping Toolkit
+2019-05-31 11:56:24.655 -          'LogMeInToolkit' process is not running.
+2019-05-31 11:56:24.655 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 11:56:24.655 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 11:56:24.671 -          Uninstall Host
+2019-05-31 11:56:24.687 -          Cert NOT found
+2019-05-31 11:56:24.702 -          Uninstall successful!
+2019-05-31 11:56:24.702 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 11:56:24.702 -          Stopping Ignition
+2019-05-31 11:56:24.719 -          Stopping process:
+2019-05-31 11:56:24.719 -          	Name:LMIIgnition: ID:2108
+2019-05-31 11:56:24.719 -          'LMIIgnition' process stopped.
+2019-05-31 11:56:24.719 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:56:26.172 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:56:26.172 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:56:26.172 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:56:26.172 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:56:26.172 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:56:26.172 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:56:26.172 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:56:26.172 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:56:26.766 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:56:26.766 -          Cleanup GRPC from: C:\Program Files (x86)\LogMeIn Ignition
+2019-05-31 11:56:26.766 -          Ignition GRPC cleaned up.
+2019-05-31 11:56:26.766 -          Uninstall Ignition
+2019-05-31 11:56:29.733 -          Uninstall successful.
+2019-05-31 11:56:29.733 -          Deleting log folder: 'C:\Users\admin\AppData\Local\LogMeInIgnition'
+2019-05-31 11:56:29.733 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 11:56:29.733 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 11:56:29.733 -          Stopping Ignition
+2019-05-31 11:56:29.749 -          'LMIIgnition' process is not running.
+2019-05-31 11:56:29.749 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:56:29.749 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:56:29.749 -          Uninstall Ignition
+2019-05-31 11:56:29.749 -          Uninstall successful.
+2019-05-31 11:56:29.749 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 11:56:29.749 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 11:56:29.749 -          Deleting log folder: 'C:\ProgramData\LogMeIn'
+2019-05-31 11:56:29.749 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 11:56:29.765 -          Changing time to 05/31/2019 11:56:29
+2019-05-31 11:56:29.784 -          Changing OS time successful
+2019-05-31 11:56:29.784 -    Step: TestTeardown
+2019-05-31 11:56:29.784 -    Step: TestBase TearDown
+=> LMIAutomation.Ignition.InstallTest.TC03_Validate_WindowsVersionProvider
+2019-05-31 11:56:29.784 -    Step: TestBase Setup
+2019-05-31 11:56:29.784 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 11:56:29.784 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:56:29.784 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:56:29.784 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:56:29.784 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:56:29.784 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:56:29.784 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:56:29.784 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:56:29.784 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 11:56:29.784 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 11:56:29.784 -    Step: TestSetup
+2019-05-31 11:56:29.784 -          Enabling client Trace level log
+2019-05-31 11:56:29.798 -    Step: TestCase STARTED: 'LMIAutomation.Ignition.InstallTest.TC03_Validate_WindowsVersionProvider' ----------------------------------------------------------------------------------------
+2019-05-31 11:56:29.798 -          Reading 'RC' website value from config file
+2019-05-31 11:56:29.798 -          'RC' website value in config file is 'Automation2'
+2019-05-31 11:56:29.798 -          Setting HomeSite to lmiautomation2.dev.3amlabs.net for Client
+2019-05-31 11:56:29.798 -          Redirecting update.logmein.com to 192.168.0.162.
+2019-05-31 11:56:29.814 -          Get all builds for lmiignition from Artifactory
+2019-05-31 11:56:30.439 -          Downloading build: /lmiignition-1.3.0.4589-snapshot+win32.develop.tgz
+2019-05-31 11:56:30.439 -          'C:\Users\admin\AppData\Local\Temp\ApploaderTemp\lmiignition-1.3.0.4589-snapshot+win32.develop.tgz' already downloaded
+2019-05-31 11:56:31.314 -          MD5 hash of existing tgz file (324a5d3264b171ada57503aaa9c93340), and hash of the build on artifactory (324a5d3264b171ada57503aaa9c93340) are the same, no need to download again.
+2019-05-31 11:56:31.314 -          MD5 hash of existing tgz file (324a5d3264b171ada57503aaa9c93340), and hash of the build on artifactory (324a5d3264b171ada57503aaa9c93340) are different.
+2019-05-31 11:56:31.314 -          Downloading build from Europe artifactory.
+2019-05-31 11:56:48.157 -          Extracting downloaded tgz...
+2019-05-31 11:56:49.532 -          Install Ignition 'LogMeInIgnition.msi'
+2019-05-31 11:56:49.532 -          Ignition GRPC prepared
+2019-05-31 11:56:49.548 -          Saving install log to 'C:\Users\admin\AppData\Local\Temp\Appsettings\ignition_install_20190531_115649.log'
+2019-05-31 11:56:52.423 -          Install successful.
+2019-05-31 11:56:52.423 -          Waiting for: 'The software is up-to-date' in log file.
+2019-05-31 11:56:52.423 -          Starting Ignition
+2019-05-31 11:56:52.689 -          Waiting for: 'Changed current profile' in log file.
+2019-05-31 11:57:01.923 -   Error: The process cannot access the file 'C:\Users\admin\AppData\Local\LogMeInIgnition\LogMeInIgnition.log' because it is being used by another process., File: C:\Users\premenyi\Documents\lmiautomation\Utilities\Application\LogReader.cs, Line: 102
+2019-05-31 11:57:06.032 -          '2019-05-31 11:57:05.845 - Info      - LogMeInIgnition:4700 - Select the only profile we have. -  - Changed current profile Account Holder of stageDB,中英字典-_?:ÉŰÁÉ$¤ß$Testing,stédszdébé, -'"+bármi lehet itt <>#&@ ' FOUND!
+2019-05-31 11:57:06.860 -          '2019-05-31 11:57:06.611 - Info      - LogMeInIgnition:4700 -  -  - DESKTOP-GU5Q3ES\admin - 04700 - 0x00000F70 - AutoUpdate - The software is up-to-date.' FOUND!
+2019-05-31 11:57:06.876 -          Current IgnitionInterface.Application.WinIgnitionApplication version is: 1.3.0.4589
+2019-05-31 11:57:06.892 -          GRPC in Ignition agent
+2019-05-31 11:57:06.892 -          Create GRPC channel
+2019-05-31 11:57:07.157 -          Connecting GRPC channel
+2019-05-31 11:57:07.330 -          OS version from test side: 10.0.17763., from product side: 10.0.17763.1.
+2019-05-31 11:57:07.330 -          Searching for crash dumps.
+2019-05-31 11:57:07.330 -    Step: TestCase PASSED: 'LMIAutomation.Ignition.InstallTest.TC03_Validate_WindowsVersionProvider' -----------------------------------------------------------------------------------------
+2019-05-31 11:57:07.330 -          Starting CleanUp!
+2019-05-31 11:57:07.346 -          'chromedriver' process is not running.
+2019-05-31 11:57:07.361 -          'chrome' process is not running.
+2019-05-31 11:57:07.361 -          Deleting HKEY_CURRENT_USER\Software\Classes\logmein from registry
+2019-05-31 11:57:07.361 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 11:57:07.361 -          Deleting file: C:\Users\admin\AppData\Local\Temp\Appsettings\ignition_install_20190531_115649.log
+2019-05-31 11:57:07.376 -          Stopping process:
+2019-05-31 11:57:07.376 -          	Name:msiexec: ID:4196
+2019-05-31 11:57:07.376 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 11:57:07.392 -          'msiexec' process stopped.
+2019-05-31 11:57:07.392 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 11:57:07.392 -          Stopping Toolkit
+2019-05-31 11:57:07.407 -          'LogMeInToolkit' process is not running.
+2019-05-31 11:57:07.407 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 11:57:07.407 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 11:57:07.407 -          Uninstall Host
+2019-05-31 11:57:07.439 -          Cert NOT found
+2019-05-31 11:57:07.471 -          Uninstall successful!
+2019-05-31 11:57:07.471 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 11:57:07.471 -          Stopping Ignition
+2019-05-31 11:57:07.485 -          Stopping process:
+2019-05-31 11:57:07.485 -          	Name:LMIIgnition: ID:4700
+2019-05-31 11:57:07.485 -          'LMIIgnition' process stopped.
+2019-05-31 11:57:07.485 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:57:08.564 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:57:08.564 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:57:08.564 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:57:08.564 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:57:08.564 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:57:08.564 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:57:08.564 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:57:08.564 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:57:09.533 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:57:09.533 -          Cleanup GRPC from: C:\Program Files (x86)\LogMeIn Ignition
+2019-05-31 11:57:09.533 -          Ignition GRPC cleaned up.
+2019-05-31 11:57:09.533 -          Uninstall Ignition
+2019-05-31 11:57:11.954 -          Uninstall successful.
+2019-05-31 11:57:11.954 -          Deleting log folder: 'C:\Users\admin\AppData\Local\LogMeInIgnition'
+2019-05-31 11:57:11.954 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 11:57:11.954 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 11:57:11.954 -          Stopping Ignition
+2019-05-31 11:57:11.954 -          'LMIIgnition' process is not running.
+2019-05-31 11:57:11.954 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:57:11.954 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:57:11.954 -          Uninstall Ignition
+2019-05-31 11:57:11.954 -          Uninstall successful.
+2019-05-31 11:57:11.954 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 11:57:11.954 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 11:57:11.954 -          Deleting log folder: 'C:\ProgramData\LogMeIn'
+2019-05-31 11:57:11.970 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 11:57:11.986 -          Changing time to 05/31/2019 11:57:11
+2019-05-31 11:57:11.994 -          Changing OS time successful
+2019-05-31 11:57:11.999 -    Step: TestTeardown
+2019-05-31 11:57:11.999 -    Step: TestBase TearDown
+=> LMIAutomation.Ignition.InstallTest
+2019-05-31 11:57:11.999 -    Step: FixtureTeardown

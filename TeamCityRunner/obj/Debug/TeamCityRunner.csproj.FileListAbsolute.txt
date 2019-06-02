@@ -1,0 +1,7 @@
+C:\Users\premenyi\source\repos\TeamCityRunner\TeamCityRunner\bin\Debug\TeamCityRunner.exe.config
+C:\Users\premenyi\source\repos\TeamCityRunner\TeamCityRunner\bin\Debug\TeamCityRunner.exe
+C:\Users\premenyi\source\repos\TeamCityRunner\TeamCityRunner\bin\Debug\TeamCityRunner.pdb
+C:\Users\premenyi\source\repos\TeamCityRunner\TeamCityRunner\obj\Debug\TeamCityRunner.csprojAssemblyReference.cache
+C:\Users\premenyi\source\repos\TeamCityRunner\TeamCityRunner\obj\Debug\TeamCityRunner.csproj.CoreCompileInputs.cache
+C:\Users\premenyi\source\repos\TeamCityRunner\TeamCityRunner\obj\Debug\TeamCityRunner.exe
+C:\Users\premenyi\source\repos\TeamCityRunner\TeamCityRunner\obj\Debug\TeamCityRunner.pdb

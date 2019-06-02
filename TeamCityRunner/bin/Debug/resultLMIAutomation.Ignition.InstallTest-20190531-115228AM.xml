@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="252" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="33" engine-version="3.4.1.0" clr-version="4.0.30319.42000" start-time="2019-05-31 09:52:38Z" end-time="2019-05-31 09:57:12Z" duration="273.786971">
+  <command-line><![CDATA[c:\nunit\bin\nunit3-console.exe  C:\ftp\nunitPlugin\lmiAutomation.dll --test LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall,LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year,LMIAutomation.Ignition.InstallTest.TC03_Validate_WindowsVersionProvider --out testresult.xml --result=resultLMIAutomation.Ignition.InstallTest-20190531-115228AM.xml --out=buildlogLMIAutomation.Ignition.InstallTest-20190531-115228AM.xml]]></command-line>
+  <filter>
+    <or>
+      <test>LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall</test>
+      <test>LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year</test>
+      <test>LMIAutomation.Ignition.InstallTest.TC03_Validate_WindowsVersionProvider</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1313" name="lmiAutomation.dll" fullname="C:\ftp\nunitPlugin\lmiAutomation.dll" runstate="Runnable" testcasecount="252" result="Passed" start-time="2019-05-31 09:52:38Z" end-time="2019-05-31 09:57:12Z" duration="273.645987" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="33">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\ftp" machine-name="DESKTOP-GU5Q3ES" user="admin" user-domain="DESKTOP-GU5Q3ES" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\ftp" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7936" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1312" name="LMIAutomation" fullname="LMIAutomation.TestBase+TestBaseInit" classname="LMIAutomation.TestBase+TestBaseInit" runstate="Runnable" testcasecount="252" result="Passed" start-time="2019-05-31 09:52:38Z" end-time="2019-05-31 09:57:12Z" duration="273.583681" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="33">
+      <test-suite type="TestSuite" id="0-1319" name="Ignition" fullname="LMIAutomation.Ignition" runstate="Runnable" testcasecount="39" result="Passed" start-time="2019-05-31 09:54:48Z" end-time="2019-05-31 09:57:12Z" duration="143.589214" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="33">
+        <test-suite type="TestFixture" id="0-1204" name="InstallTest" fullname="LMIAutomation.Ignition.InstallTest" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2019-05-31 09:54:48Z" end-time="2019-05-31 09:57:11Z" duration="143.584582" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="33">
+          <test-case id="0-1205" name="TC01_DefaultInstall" fullname="LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall" methodname="TC01_DefaultInstall" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="1713923053" result="Passed" start-time="2019-05-31 09:54:50Z" end-time="2019-05-31 09:55:46Z" duration="55.991050" asserts="12">
+            <properties>
+              <property name="Category" value="nightly" />
+            </properties>
+          </test-case>
+          <test-case id="0-1206" name="TC02_Check_Copyright_Year" fullname="LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year" methodname="TC02_Check_Copyright_Year" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="1109717026" result="Passed" start-time="2019-05-31 09:55:46Z" end-time="2019-05-31 09:56:29Z" duration="42.897798" asserts="10" />
+          <test-case id="0-1207" name="TC03_Validate_WindowsVersionProvider" fullname="LMIAutomation.Ignition.InstallTest.TC03_Validate_WindowsVersionProvider" methodname="TC03_Validate_WindowsVersionProvider" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="2043494072" result="Passed" start-time="2019-05-31 09:56:29Z" end-time="2019-05-31 09:57:11Z" duration="42.212002" asserts="10" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

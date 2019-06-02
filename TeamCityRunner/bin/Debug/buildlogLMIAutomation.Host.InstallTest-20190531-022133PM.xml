@@ -1,0 +1,219 @@
+=> LMIAutomation.TestBase+TestBaseInit
+2019-05-31 14:21:34.457 -          Starting test run. Build information: 
+2019-05-31 14:21:34.457 -          
+
+Version         : lmiautomation-1.0.0.803-2-35949088-dirty
+Built on        : 2019-05-29 17:18:34.729127
+Built by        : premenyi
+Build computer  : HUBPA-R90QUN3B
+
+2019-05-31 14:21:34.520 -          Reading 'Live' website value from config file
+2019-05-31 14:21:34.536 -          'Live' website value in config file is 'Automation1'
+2019-05-31 14:21:34.536 -          Reading 'RC' website value from config file
+2019-05-31 14:21:34.536 -          'RC' website value in config file is 'Automation2'
+2019-05-31 14:21:34.536 -          Reading 'Dummy' website value from config file
+2019-05-31 14:21:34.536 -          'Dummy' website value in config file is 'Automation3'
+2019-05-31 14:21:34.582 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 14:21:34.582 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 14:21:34.582 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 14:21:34.582 -          <Central> - 
+2019-05-31 14:21:34.582 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:34.582 -          <Central> - 
+2019-05-31 14:21:34.582 -          <Central> - 
+2019-05-31 14:21:34.582 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:34.582 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:34.582 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:21:34.582 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:21:34.582 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:21:35.036 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:35.036 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:35.036 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:35.036 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:35.036 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:21:35.036 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:21:35.083 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:35.083 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:35.083 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 14:21:35.099 -          <Central> - 
+2019-05-31 14:21:35.099 -          <Central> - 
+2019-05-31 14:21:35.099 -          <Central> - 
+2019-05-31 14:21:35.099 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:35.099 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:35.099 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:35.099 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 14:21:35.099 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 14:21:35.099 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 14:21:35.099 -          <Central> - Request cookie: csrftoken=HIT8VLULsNIV0ZXIhNHoDMtCNWFQtyE36czwIES241Vv7loGRGM9Y5KdA3wm4ncx
+2019-05-31 14:21:35.099 -          <Central> - Request cookie: csrftoken=X5OrftMUQahjG6M3309kD3M2GqnxRanUsqzMTjMF6AiPFITLJsd6weVdrJvppGVB
+2019-05-31 14:21:35.099 -          <Central> - Request cookie: csrftoken=IAoefMvyco7yqA5tayCCLS1dedXsuI7tlF1KYgc6LhMooMzpEJE5q0gy3nV81IfK
+2019-05-31 14:21:39.629 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:39.629 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:39.629 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 14:21:39.629 -          <Central> - 
+2019-05-31 14:21:39.629 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:39.629 -          <Central> - GET https://lmiautomation3.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_1QJvCg1e4rNi6Wy2yWldUkGJhUosCe4LEx2ErJM5cZMxyQV9OTCGoN7ENwvp0GID
+2019-05-31 14:21:39.707 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:39.707 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:39.707 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 14:21:39.707 -          <Central> - 
+2019-05-31 14:21:39.707 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:39.707 -          <Central> - GET https://lmiautomation1.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_yQlyiMNi8OisBJWocXieKlUUM4PnjuWJchzQshe0b0sfstRDAsNWe9pW5qSzq0CZ
+2019-05-31 14:21:40.301 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:40.301 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:40.301 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 14:21:40.301 -          <Central> - 
+2019-05-31 14:21:40.301 -          <Central> - ========== Begin Request ==========
+2019-05-31 14:21:40.301 -          <Central> - GET https://lmiautomation2.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_TavVJppxK9fQYH5BxXoH8SK4P8bc6Wvcasrbec67EZ58c2jy9NfC6kIA69lx7awC
+2019-05-31 14:21:41.692 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:41.692 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:41.692 -          <Central> - Response Uri: https://lmiautomation3.dev.3amlabs.net/central/Central.aspx
+2019-05-31 14:21:41.692 -          Environment: Automation3 wake up succeeded: True
+2019-05-31 14:21:43.270 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:43.270 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:43.270 -          <Central> - Response Uri: https://lmiautomation1.dev.3amlabs.net/central/Central.aspx
+2019-05-31 14:21:43.270 -          Environment: Automation1 wake up succeeded: True
+2019-05-31 14:21:44.036 -          <Central> - ---------- Begin Response ----------
+2019-05-31 14:21:44.036 -          <Central> - Response Status-Code: OK
+2019-05-31 14:21:44.036 -          <Central> - Response Uri: https://lmiautomation2.dev.3amlabs.net/central/Central.aspx
+2019-05-31 14:21:44.051 -          Environment: Automation2 wake up succeeded: True
+=> LMIAutomation.Host.InstallTest
+2019-05-31 14:21:44.051 -          Reading 'RC' website value from config file
+2019-05-31 14:21:44.051 -          'RC' website value in config file is 'Automation2'
+=> LMIAutomation.Host.InstallTest.TC01_DefaultInstall
+2019-05-31 14:21:44.129 -    Step: TestBase Setup
+2019-05-31 14:21:44.145 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 14:21:44.145 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.161 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.161 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.161 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.161 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.161 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.161 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.161 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 14:21:44.161 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 14:21:44.161 -    Step: TestSetup
+2019-05-31 14:21:44.161 -          Starting CleanUp!
+2019-05-31 14:21:44.176 -          'chromedriver' process is not running.
+2019-05-31 14:21:44.176 -          'chrome' process is not running.
+2019-05-31 14:21:44.176 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 14:21:44.192 -          'msiexec' process is not running.
+2019-05-31 14:21:44.192 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 14:21:44.192 -          Stopping Toolkit
+2019-05-31 14:21:44.192 -          'LogMeInToolkit' process is not running.
+2019-05-31 14:21:44.192 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 14:21:44.192 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 14:21:44.192 -          Uninstall Host
+2019-05-31 14:21:44.192 -          Cert NOT found
+2019-05-31 14:21:44.207 -          Uninstall successful!
+2019-05-31 14:21:44.207 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 14:21:44.207 -          Stopping Ignition
+2019-05-31 14:21:44.207 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:44.207 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:44.207 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:44.207 -          Uninstall Ignition
+2019-05-31 14:21:44.223 -          Uninstall successful.
+2019-05-31 14:21:44.223 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 14:21:44.223 -          Stopping Ignition
+2019-05-31 14:21:44.223 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:44.223 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:44.223 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:44.223 -          Uninstall Ignition
+2019-05-31 14:21:44.223 -          Uninstall successful.
+2019-05-31 14:21:44.223 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 14:21:44.223 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 14:21:44.301 -          Changing time to 05/31/2019 14:21:44
+2019-05-31 14:21:44.301 -   Error: ChangeOSTime failed with errorcode: 1314, File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 80
+2019-05-31 14:21:44.301 -   Error: RestoreHostsFile failed: Access to the path 'C:\Windows\system32\drivers\etc\hosts' is denied., File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 123
+2019-05-31 14:21:44.348 -    Step: TestBase TearDown
+=> LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient
+2019-05-31 14:21:44.348 -    Step: TestBase Setup
+2019-05-31 14:21:44.348 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 14:21:44.348 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.348 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.348 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.348 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.348 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.348 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.348 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.348 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 14:21:44.348 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 14:21:44.348 -    Step: TestSetup
+2019-05-31 14:21:44.348 -          Starting CleanUp!
+2019-05-31 14:21:44.348 -          'chromedriver' process is not running.
+2019-05-31 14:21:44.364 -          'chrome' process is not running.
+2019-05-31 14:21:44.364 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 14:21:44.364 -          'msiexec' process is not running.
+2019-05-31 14:21:44.364 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 14:21:44.364 -          Stopping Toolkit
+2019-05-31 14:21:44.364 -          'LogMeInToolkit' process is not running.
+2019-05-31 14:21:44.364 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 14:21:44.364 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 14:21:44.364 -          Uninstall Host
+2019-05-31 14:21:44.364 -          Cert NOT found
+2019-05-31 14:21:44.364 -          Uninstall successful!
+2019-05-31 14:21:44.364 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 14:21:44.364 -          Stopping Ignition
+2019-05-31 14:21:44.379 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:44.379 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:44.379 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:44.379 -          Uninstall Ignition
+2019-05-31 14:21:44.379 -          Uninstall successful.
+2019-05-31 14:21:44.379 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 14:21:44.379 -          Stopping Ignition
+2019-05-31 14:21:44.379 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:44.379 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:44.379 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:44.379 -          Uninstall Ignition
+2019-05-31 14:21:44.379 -          Uninstall successful.
+2019-05-31 14:21:44.379 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 14:21:44.379 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 14:21:44.395 -          Changing time to 05/31/2019 14:21:44
+2019-05-31 14:21:44.395 -   Error: ChangeOSTime failed with errorcode: 1314, File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 80
+2019-05-31 14:21:44.395 -   Error: RestoreHostsFile failed: Access to the path 'C:\Windows\system32\drivers\etc\hosts' is denied., File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 123
+2019-05-31 14:21:44.395 -    Step: TestBase TearDown
+=> LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient
+2019-05-31 14:21:44.395 -    Step: TestBase Setup
+2019-05-31 14:21:44.395 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 14:21:44.395 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.395 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.395 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.395 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.395 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.395 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 14:21:44.395 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 14:21:44.395 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 14:21:44.395 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 14:21:44.395 -    Step: TestSetup
+2019-05-31 14:21:44.395 -          Starting CleanUp!
+2019-05-31 14:21:44.410 -          'chromedriver' process is not running.
+2019-05-31 14:21:44.410 -          'chrome' process is not running.
+2019-05-31 14:21:44.410 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 14:21:44.410 -          'msiexec' process is not running.
+2019-05-31 14:21:44.410 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 14:21:44.410 -          Stopping Toolkit
+2019-05-31 14:21:44.410 -          'LogMeInToolkit' process is not running.
+2019-05-31 14:21:44.410 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 14:21:44.410 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 14:21:44.410 -          Uninstall Host
+2019-05-31 14:21:44.426 -          Cert NOT found
+2019-05-31 14:21:44.426 -          Uninstall successful!
+2019-05-31 14:21:44.426 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 14:21:44.426 -          Stopping Ignition
+2019-05-31 14:21:44.426 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:44.426 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:44.426 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:44.426 -          Uninstall Ignition
+2019-05-31 14:21:44.426 -          Uninstall successful.
+2019-05-31 14:21:44.426 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 14:21:44.426 -          Stopping Ignition
+2019-05-31 14:21:44.442 -          'LMIIgnition' process is not running.
+2019-05-31 14:21:44.442 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 14:21:44.442 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 14:21:44.442 -          Uninstall Ignition
+2019-05-31 14:21:44.442 -          Uninstall successful.
+2019-05-31 14:21:44.442 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 14:21:44.442 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 14:21:44.458 -          Changing time to 05/31/2019 14:21:44
+2019-05-31 14:21:44.458 -   Error: ChangeOSTime failed with errorcode: 1314, File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 80
+2019-05-31 14:21:44.458 -   Error: RestoreHostsFile failed: Access to the path 'C:\Windows\system32\drivers\etc\hosts' is denied., File: C:\Users\premenyi\Documents\lmiautomation\Utilities\OS\OSSettings\WinOSSettingsImpl.cs, Line: 123
+2019-05-31 14:21:44.458 -    Step: TestBase TearDown

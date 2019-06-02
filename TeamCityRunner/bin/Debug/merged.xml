@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="252" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="33" engine-version="3.4.1.0" clr-version="4.0.30319.42000" start-time="2019 - 05 - 30 14:28:24Z" end-time="2019 - 05 - 30 14:31:58Z" duration="214.175499">
+  <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\ftp" machine-name="DESKTOP-GU5Q3ES" user="admin" user-domain="DESKTOP-GU5Q3ES" culture="en-US" uiculture="en-US" os-architecture="x64" />
+  <settings>
+    <setting name="WorkDirectory" value="C:\ftp" />
+    <setting name="ImageRuntimeVersion" value="4.0.30319" />
+    <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+    <setting name="ImageRequiresX86" value="False" />
+    <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+    <setting name="NumberOfTestWorkers" value="4" />
+  </settings>
+  <test-suite type="SetUpFixture" id="0 - 1312" name="LMIAutomation" fullname="LMIAutomation.TestBase + TestBaseInit" classname="LMIAutomation.TestBase + TestBaseInit" runstate="Runnable" testcasecount="252" result="Failed" start-time="2019 - 05 - 30 14:28:24Z" end-time="2019 - 05 - 30 14:31:58Z" duration="62.863084" total="6" passed="0" failed="6" warnings="0" inconclusive="0" skipped="0" asserts="33">
+    <results>
+      <test-suite type="SetUpFixture" id="0-1312" name="LMIAutomation" fullname="LMIAutomation.TestBase+TestBaseInit" classname="LMIAutomation.TestBase+TestBaseInit" runstate="Runnable" testcasecount="252" result="Failed" site="Child" start-time="2019-05-31 12:20:34Z" end-time="2019-05-31 12:21:26Z" duration="52.445245" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1319" name="Ignition" fullname="LMIAutomation.Ignition" runstate="Runnable" testcasecount="39" result="Failed" site="Child" start-time="2019-05-31 12:21:26Z" end-time="2019-05-31 12:21:26Z" duration="0.580705" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1204" name="InstallTest" fullname="LMIAutomation.Ignition.InstallTest" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" testcasecount="3" result="Failed" site="SetUp" start-time="2019-05-31 12:21:26Z" end-time="2019-05-31 12:21:26Z" duration="0.574069" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <failure>
+              <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+              <stack-trace><![CDATA[   at LMIAutomation.Ignition.IgnitionTest.FixtureSetup() in C:\Users\premenyi\Documents\lmiautomation\NUnitPlugin\Ignition\IgnitionTest.cs:line 35
+]]></stack-trace>
+            </failure>
+            <test-case id="0-1205" name="TC01_DefaultInstall" fullname="LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall" methodname="TC01_DefaultInstall" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="853980712" result="Failed" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+              <properties>
+                <property name="Category" value="nightly" />
+              </properties>
+              <failure>
+                <message><![CDATA[OneTimeSetUp:   Expected: True
+  But was:  False
+]]></message>
+              </failure>
+            </test-case>
+            <test-case id="0-1206" name="TC02_Check_Copyright_Year" fullname="LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year" methodname="TC02_Check_Copyright_Year" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="1255711403" result="Failed" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+              <failure>
+                <message><![CDATA[OneTimeSetUp:   Expected: True
+  But was:  False
+]]></message>
+              </failure>
+            </test-case>
+            <test-case id="0-1207" name="TC03_Validate_WindowsVersionProvider" fullname="LMIAutomation.Ignition.InstallTest.TC03_Validate_WindowsVersionProvider" methodname="TC03_Validate_WindowsVersionProvider" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="2063458410" result="Failed" site="Parent" start-time="0001-01-01 00:00:00Z" end-time="0001-01-01 00:00:00Z" duration="0.000000" asserts="0">
+              <failure>
+                <message><![CDATA[OneTimeSetUp:   Expected: True
+  But was:  False
+]]></message>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+      <test-suite type="SetUpFixture" id="0-1312" name="LMIAutomation" fullname="LMIAutomation.TestBase+TestBaseInit" classname="LMIAutomation.TestBase+TestBaseInit" runstate="Runnable" testcasecount="252" result="Failed" site="Child" start-time="2019-05-31 12:21:34Z" end-time="2019-05-31 12:21:44Z" duration="10.417839" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1320" name="Host" fullname="LMIAutomation.Host" runstate="Runnable" testcasecount="50" result="Failed" site="Child" start-time="2019-05-31 12:21:44Z" end-time="2019-05-31 12:21:44Z" duration="0.407224" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1285" name="InstallTest" fullname="LMIAutomation.Host.InstallTest" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" testcasecount="15" result="Failed" site="Child" start-time="2019-05-31 12:21:44Z" end-time="2019-05-31 12:21:44Z" duration="0.405098" total="3" passed="0" failed="3" warnings="0" inconclusive="0" skipped="0" asserts="3">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1288" name="TC01_DefaultInstall" fullname="LMIAutomation.Host.InstallTest.TC01_DefaultInstall" methodname="TC01_DefaultInstall" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" seed="384098928" result="Failed" start-time="2019-05-31 12:21:44Z" end-time="2019-05-31 12:21:44Z" duration="0.210815" asserts="1">
+              <properties>
+                <property name="Category" value="nightly" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at LMIAutomation.Host.HostTest.TestSetup() in C:\Users\premenyi\Documents\lmiautomation\NUnitPlugin\Host\HostTest.cs:line 27
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at LMIAutomation.Host.HostTest.TestSetup() in C:\Users\premenyi\Documents\lmiautomation\NUnitPlugin\Host\HostTest.cs:line 27
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1289" name="TC02_ShowHost_ShowClient" fullname="LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient" methodname="TC02_ShowHost_ShowClient" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" seed="1522466481" result="Failed" start-time="2019-05-31 12:21:44Z" end-time="2019-05-31 12:21:44Z" duration="0.049198" asserts="1">
+              <properties>
+                <property name="Category" value="nightly" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at LMIAutomation.Host.HostTest.TestSetup() in C:\Users\premenyi\Documents\lmiautomation\NUnitPlugin\Host\HostTest.cs:line 27
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at LMIAutomation.Host.HostTest.TestSetup() in C:\Users\premenyi\Documents\lmiautomation\NUnitPlugin\Host\HostTest.cs:line 27
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+            <test-case id="0-1290" name="TC03_ShowHost_HideClient" fullname="LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient" methodname="TC03_ShowHost_HideClient" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" seed="181220473" result="Failed" start-time="2019-05-31 12:21:44Z" end-time="2019-05-31 12:21:44Z" duration="0.054780" asserts="1">
+              <properties>
+                <property name="Category" value="nightly" />
+              </properties>
+              <failure>
+                <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                <stack-trace><![CDATA[   at LMIAutomation.Host.HostTest.TestSetup() in C:\Users\premenyi\Documents\lmiautomation\NUnitPlugin\Host\HostTest.cs:line 27
+]]></stack-trace>
+              </failure>
+              <assertions>
+                <assertion result="Failed">
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at LMIAutomation.Host.HostTest.TestSetup() in C:\Users\premenyi\Documents\lmiautomation\NUnitPlugin\Host\HostTest.cs:line 27
+]]></stack-trace>
+                </assertion>
+              </assertions>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-run>

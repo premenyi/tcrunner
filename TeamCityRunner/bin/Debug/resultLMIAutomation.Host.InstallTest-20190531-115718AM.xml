@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="252" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="59" engine-version="3.4.1.0" clr-version="4.0.30319.42000" start-time="2019-05-31 09:57:20Z" end-time="2019-05-31 10:07:11Z" duration="591.034267">
+  <command-line><![CDATA[c:\nunit\bin\nunit3-console.exe  C:\ftp\nunitPlugin\lmiAutomation.dll --test LMIAutomation.Host.InstallTest.TC01_DefaultInstall,LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient,LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient --out testresult.xml --result=resultLMIAutomation.Host.InstallTest-20190531-115718AM.xml --out=buildlogLMIAutomation.Host.InstallTest-20190531-115718AM.xml]]></command-line>
+  <filter>
+    <or>
+      <test>LMIAutomation.Host.InstallTest.TC01_DefaultInstall</test>
+      <test>LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient</test>
+      <test>LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1313" name="lmiAutomation.dll" fullname="C:\ftp\nunitPlugin\lmiAutomation.dll" runstate="Runnable" testcasecount="252" result="Passed" start-time="2019-05-31 09:57:20Z" end-time="2019-05-31 10:07:11Z" duration="590.907585" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="59">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\ftp" machine-name="DESKTOP-GU5Q3ES" user="admin" user-domain="DESKTOP-GU5Q3ES" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\ftp" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7232" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1312" name="LMIAutomation" fullname="LMIAutomation.TestBase+TestBaseInit" classname="LMIAutomation.TestBase+TestBaseInit" runstate="Runnable" testcasecount="252" result="Passed" start-time="2019-05-31 09:57:21Z" end-time="2019-05-31 10:07:11Z" duration="590.830266" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="59">
+      <test-suite type="TestSuite" id="0-1320" name="Host" fullname="LMIAutomation.Host" runstate="Runnable" testcasecount="50" result="Passed" start-time="2019-05-31 09:57:34Z" end-time="2019-05-31 10:07:11Z" duration="577.697969" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="59">
+        <test-suite type="TestFixture" id="0-1285" name="InstallTest" fullname="LMIAutomation.Host.InstallTest" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" testcasecount="15" result="Passed" start-time="2019-05-31 09:57:34Z" end-time="2019-05-31 10:07:11Z" duration="577.696019" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="59">
+          <test-case id="0-1288" name="TC01_DefaultInstall" fullname="LMIAutomation.Host.InstallTest.TC01_DefaultInstall" methodname="TC01_DefaultInstall" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" seed="1279939667" result="Passed" start-time="2019-05-31 09:57:34Z" end-time="2019-05-31 10:00:47Z" duration="192.908078" asserts="20">
+            <properties>
+              <property name="Category" value="nightly" />
+            </properties>
+          </test-case>
+          <test-case id="0-1289" name="TC02_ShowHost_ShowClient" fullname="LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient" methodname="TC02_ShowHost_ShowClient" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" seed="1159089904" result="Passed" start-time="2019-05-31 10:00:47Z" end-time="2019-05-31 10:04:09Z" duration="202.220197" asserts="20">
+            <properties>
+              <property name="Category" value="nightly" />
+            </properties>
+          </test-case>
+          <test-case id="0-1290" name="TC03_ShowHost_HideClient" fullname="LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient" methodname="TC03_ShowHost_HideClient" classname="LMIAutomation.Host.InstallTest" runstate="Runnable" seed="928822120" result="Passed" start-time="2019-05-31 10:04:09Z" end-time="2019-05-31 10:07:11Z" duration="182.312801" asserts="19">
+            <properties>
+              <property name="Category" value="nightly" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

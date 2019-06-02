@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="252" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="11" engine-version="3.4.1.0" clr-version="4.0.30319.42000" start-time="2019-05-30 14:00:55Z" end-time="2019-05-30 14:01:51Z" duration="56.008417">
+  <command-line><![CDATA[c:\nunit\bin\nunit3-console.exe  C:\ftp\nunitPlugin\lmiAutomation.dll --test LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year --out testresult.xml --result=result20190530-040052PM.xml --out=buildlog20190530-040052PM.xml]]></command-line>
+  <filter>
+    <test>LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year</test>
+  </filter>
+  <test-suite type="Assembly" id="0-1313" name="lmiAutomation.dll" fullname="C:\ftp\nunitPlugin\lmiAutomation.dll" runstate="Runnable" testcasecount="252" result="Passed" start-time="2019-05-30 14:00:55Z" end-time="2019-05-30 14:01:51Z" duration="55.863453" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17763.0" platform="Win32NT" cwd="C:\ftp" machine-name="DESKTOP-GU5Q3ES" user="admin" user-domain="DESKTOP-GU5Q3ES" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="WorkDirectory" value="C:\ftp" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.6.1" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="9616" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1312" name="LMIAutomation" fullname="LMIAutomation.TestBase+TestBaseInit" classname="LMIAutomation.TestBase+TestBaseInit" runstate="Runnable" testcasecount="252" result="Passed" start-time="2019-05-30 14:00:55Z" end-time="2019-05-30 14:01:51Z" duration="55.806334" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+      <test-suite type="TestSuite" id="0-1319" name="Ignition" fullname="LMIAutomation.Ignition" runstate="Runnable" testcasecount="39" result="Passed" start-time="2019-05-30 14:01:08Z" end-time="2019-05-30 14:01:51Z" duration="42.651194" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+        <test-suite type="TestFixture" id="0-1204" name="InstallTest" fullname="LMIAutomation.Ignition.InstallTest" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2019-05-30 14:01:08Z" end-time="2019-05-30 14:01:51Z" duration="42.645798" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="11">
+          <test-case id="0-1206" name="TC02_Check_Copyright_Year" fullname="LMIAutomation.Ignition.InstallTest.TC02_Check_Copyright_Year" methodname="TC02_Check_Copyright_Year" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="212149620" result="Passed" start-time="2019-05-30 14:01:09Z" end-time="2019-05-30 14:01:51Z" duration="42.104940" asserts="10" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

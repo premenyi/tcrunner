@@ -1,0 +1,672 @@
+=> LMIAutomation.TestBase+TestBaseInit
+2019-05-31 11:57:22.296 -          Starting test run. Build information: 
+2019-05-31 11:57:22.312 -          
+
+Version         : lmiautomation-1.0.0.803-2-35949088-dirty
+Built on        : 2019-05-29 17:18:34.729127
+Built by        : premenyi
+Build computer  : HUBPA-R90QUN3B
+
+2019-05-31 11:57:22.531 -          Reading 'Live' website value from config file
+2019-05-31 11:57:22.531 -          'Live' website value in config file is 'Automation1'
+2019-05-31 11:57:22.531 -          Reading 'RC' website value from config file
+2019-05-31 11:57:22.531 -          'RC' website value in config file is 'Automation2'
+2019-05-31 11:57:22.531 -          Reading 'Dummy' website value from config file
+2019-05-31 11:57:22.531 -          'Dummy' website value in config file is 'Automation3'
+2019-05-31 11:57:22.671 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 11:57:22.671 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 11:57:22.671 -          <Central> - * Login with user in CLS (lmiappautomation@gmail.com/lmiappautomation@gmail.com)
+2019-05-31 11:57:22.703 -          <Central> - 
+2019-05-31 11:57:22.703 -          <Central> - 
+2019-05-31 11:57:22.703 -          <Central> - 
+2019-05-31 11:57:22.703 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:22.703 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:22.703 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:22.703 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:57:22.703 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:57:22.703 -          <Central> - GET https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:57:25.890 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:25.890 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:25.890 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:57:25.953 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:25.953 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:25.953 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:57:26.015 -          <Central> - 
+2019-05-31 11:57:26.015 -          <Central> - 
+2019-05-31 11:57:26.015 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:26.015 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 11:57:26.015 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:26.015 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 11:57:26.015 -          <Central> - Request cookie: csrftoken=sVTtZJuyJroq5dI4HrRiWQqSKYw7nYlWFTS12jJVfQ8ZNiil6r9JNptTr5pJbf0i
+2019-05-31 11:57:26.015 -          <Central> - Request cookie: csrftoken=Gw6WtUHbxPC2IsuiZRUByFn0HP2OZATN91Jow6dcbs344nBCLpWiybpW8guwlFJd
+2019-05-31 11:57:27.984 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:27.984 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:27.984 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 11:57:27.984 -          <Central> - 
+2019-05-31 11:57:27.984 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:27.984 -          <Central> - GET https://lmiautomation1.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_WI7ZRzUcSu6MT2pzv6s3CuGzWgnpbDdOrbPp1ac5jduCERdlgv9SVL62TgjDuN5P
+2019-05-31 11:57:28.047 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:28.047 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:28.047 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 11:57:28.047 -          <Central> - 
+2019-05-31 11:57:28.047 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:28.047 -          <Central> - GET https://lmiautomation3.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_K9FUFt8NcP2f6vIO2CtyN7uCkNV991ZQNkvQmr9mLy7f7SiE2RfAwZaFcjFnEloO
+2019-05-31 11:57:28.266 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:28.266 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:28.266 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/login.aspx
+2019-05-31 11:57:28.266 -          <Central> - 
+2019-05-31 11:57:28.266 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:28.266 -          <Central> - POST https://lsstage.dev.3amlabs.net/auth.aspx?loginattempts=1
+2019-05-31 11:57:28.266 -          <Central> - Request cookie: csrftoken=D6yITqSvnlJN44hhjoytZcq6rqlbkkKDkIc4Qms1HPmBEdCj5iUoHsoVkQkgiRWY
+2019-05-31 11:57:28.953 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:28.953 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:28.953 -          <Central> - Response Uri: https://lsstage.dev.3amlabs.net/accountsettings.aspx
+2019-05-31 11:57:28.953 -          <Central> - 
+2019-05-31 11:57:28.953 -          <Central> - ========== Begin Request ==========
+2019-05-31 11:57:28.953 -          <Central> - GET https://lmiautomation2.dev.3amlabs.net/Federated/loginsso.aspx?loginsessionid=01_busx5XC9j5bjmkX3B1YSQ8ltZK7GJfBQTNCWWSXh5yrHzUrdlbeZdd3PKJ3DY2St
+2019-05-31 11:57:31.640 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:31.640 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:31.640 -          <Central> - Response Uri: https://lmiautomation3.dev.3amlabs.net/central/Central.aspx
+2019-05-31 11:57:31.656 -          Environment: Automation3 wake up succeeded: True
+2019-05-31 11:57:32.265 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:32.265 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:32.265 -          <Central> - Response Uri: https://lmiautomation2.dev.3amlabs.net/central/Central.aspx
+2019-05-31 11:57:32.281 -          Environment: Automation2 wake up succeeded: True
+2019-05-31 11:57:34.155 -          <Central> - ---------- Begin Response ----------
+2019-05-31 11:57:34.155 -          <Central> - Response Status-Code: OK
+2019-05-31 11:57:34.155 -          <Central> - Response Uri: https://lmiautomation1.dev.3amlabs.net/central/Central.aspx
+2019-05-31 11:57:34.155 -          Environment: Automation1 wake up succeeded: True
+=> LMIAutomation.Host.InstallTest
+2019-05-31 11:57:34.171 -          Reading 'RC' website value from config file
+2019-05-31 11:57:34.171 -          'RC' website value in config file is 'Automation2'
+=> LMIAutomation.Host.InstallTest.TC01_DefaultInstall
+2019-05-31 11:57:34.422 -    Step: TestBase Setup
+2019-05-31 11:57:34.438 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 11:57:34.438 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:57:34.468 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:57:34.468 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:57:34.468 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:57:34.468 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:57:34.468 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 11:57:34.468 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 11:57:34.468 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 11:57:34.468 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 11:57:34.468 -    Step: TestSetup
+2019-05-31 11:57:34.484 -          Starting CleanUp!
+2019-05-31 11:57:34.577 -          'chromedriver' process is not running.
+2019-05-31 11:57:34.593 -          'chrome' process is not running.
+2019-05-31 11:57:34.593 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 11:57:34.609 -          Stopping process:
+2019-05-31 11:57:34.609 -          	Name:msiexec: ID:6264
+2019-05-31 11:57:34.624 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 11:57:34.624 -          'msiexec' process stopped.
+2019-05-31 11:57:34.624 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 11:57:34.624 -          Stopping Toolkit
+2019-05-31 11:57:34.640 -          'LogMeInToolkit' process is not running.
+2019-05-31 11:57:34.640 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 11:57:34.640 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 11:57:34.640 -          Uninstall Host
+2019-05-31 11:57:34.687 -          Cert NOT found
+2019-05-31 11:57:34.734 -          Uninstall successful!
+2019-05-31 11:57:34.734 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 11:57:34.734 -          Stopping Ignition
+2019-05-31 11:57:34.750 -          'LMIIgnition' process is not running.
+2019-05-31 11:57:34.750 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:57:34.750 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:57:34.750 -          Uninstall Ignition
+2019-05-31 11:57:34.766 -          Uninstall successful.
+2019-05-31 11:57:34.766 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 11:57:34.766 -          Stopping Ignition
+2019-05-31 11:57:34.780 -          'LMIIgnition' process is not running.
+2019-05-31 11:57:34.780 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 11:57:34.780 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 11:57:34.780 -          Uninstall Ignition
+2019-05-31 11:57:34.780 -          Uninstall successful.
+2019-05-31 11:57:34.796 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 11:57:34.796 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 11:57:34.890 -          Changing time to 05/31/2019 11:57:34
+2019-05-31 11:57:34.890 -          Changing OS time successful
+2019-05-31 11:57:34.929 -          Enabling host Trace level log
+2019-05-31 11:57:34.929 -    Step: TestCase STARTED: 'LMIAutomation.Host.InstallTest.TC01_DefaultInstall' -------------------------------------------------------------------------------------------------------------
+2019-05-31 11:57:34.929 -          Host version:    4.1.0.12624
+2019-05-31 11:57:34.929 -          Enabling client Trace level log
+2019-05-31 11:57:34.945 -          Setting HomeSite to lmiautomation2.dev.3amlabs.net for Host
+2019-05-31 11:57:34.945 -          Redirecting update.logmein.com to 192.168.0.162.
+2019-05-31 11:57:34.977 -          Installing host version '4.1.0.12624'
+2019-05-31 11:57:34.977 -          Get all builds for host from Artifactory
+2019-05-31 11:57:37.102 -          Downloading build: /host-4.1.0.12624+win32.hotfix_train-20190514.tgz
+2019-05-31 11:57:37.102 -          Downloading build from Europe artifactory.
+2019-05-31 11:58:52.429 -          Extracting downloaded tgz...
+2019-05-31 11:59:13.352 -          Installing Host 'LMI40112624nh.msi'
+2019-05-31 11:59:13.352 -          Creating directory for proto file at 'C:\Program Files (x86)\LogMeIn\x64'
+2019-05-31 11:59:13.383 -          Copying libprotobuf-lite.dll from: C:\ftp\nunitPlugin\x64\libprotobuf-lite.dll to: C:\Program Files (x86)\LogMeIn\x64\libprotobuf-lite.dll
+2019-05-31 11:59:13.383 -          Host GRPC prepared
+2019-05-31 11:59:13.383 -          Saving install log to 'C:\Users\admin\AppData\Local\Temp\Appsettings\host_install_20190531_115913.log'
+2019-05-31 11:59:44.961 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:59:44.961 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:59:44.961 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:59:44.961 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:59:44.961 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:59:44.961 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:59:44.961 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 11:59:44.961 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 11:59:59.211 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 11:59:59.211 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 11:59:59.211 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 11:59:59.227 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:00:03.946 -          Ignition GRPC prepared
+2019-05-31 12:00:03.946 -          Install successful.
+2019-05-31 12:00:03.946 -          Waiting for Ignition download
+2019-05-31 12:00:07.289 -          Ignition successfully downloaded
+2019-05-31 12:00:07.304 -          Current HostInterface.Application.WinHostApplication version is: 4.1.0.12624
+2019-05-31 12:00:07.336 -          Waiting for: 'OESISLibUpdater - Updater apply OK' in log file.
+2019-05-31 12:00:08.383 -          '2019-05-31 12:00:08.054 - Info      - LogMeIn - NT AUTHORITY\SYSTEM - 03980 - 0x00000EB0 - OESISLibUpdater - Updater apply OK' FOUND!
+2019-05-31 12:00:08.398 -          Service status: Running
+2019-05-31 12:00:08.398 -          Host login successful - HostID: 1000474152
+2019-05-31 12:00:08.414 -          Current HostInterface.Application.WinHostApplication version is: 4.1.0.12624
+2019-05-31 12:00:08.414 -          Checking install
+2019-05-31 12:00:08.414 -          File list OK!
+2019-05-31 12:00:08.414 -          Checking Signature
+2019-05-31 12:00:12.883 -          C:\Program Files (x86)\LogMeIn\x64\cppwinrtdll.dll has valid sha256RSA signature.
+2019-05-31 12:00:13.211 -          C:\Program Files (x86)\LogMeIn\x64\ksu.dll has valid sha256RSA signature.
+2019-05-31 12:00:13.445 -          C:\Program Files (x86)\LogMeIn\x64\libwaapi.dll has valid sha256RSA signature.
+2019-05-31 12:00:13.664 -          C:\Program Files (x86)\LogMeIn\x64\libwaheap.dll has valid sha256RSA signature.
+2019-05-31 12:00:14.024 -          C:\Program Files (x86)\LogMeIn\x64\libwalocal.dll has valid sha256RSA signature.
+2019-05-31 12:00:14.617 -          C:\Program Files (x86)\LogMeIn\x64\libwaremoval.dll has valid sha256RSA signature.
+2019-05-31 12:00:14.977 -          C:\Program Files (x86)\LogMeIn\x64\libwaresource.dll has valid sha256RSA signature.
+2019-05-31 12:00:15.086 -          C:\Program Files (x86)\LogMeIn\x64\libwautils.dll has valid sha256RSA signature.
+2019-05-31 12:00:15.321 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianDll.dll has valid sha256RSA signature.
+2019-05-31 12:00:15.539 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianEvt.dll has valid sha256RSA signature.
+2019-05-31 12:00:15.774 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianSvc.exe has valid sha256RSA signature.
+2019-05-31 12:00:16.118 -          C:\Program Files (x86)\LogMeIn\x64\lmiinfo.sys has valid sha256RSA signature.
+2019-05-31 12:00:16.242 -          C:\Program Files (x86)\LogMeIn\x64\LMIinit.dll has valid sha256RSA signature.
+2019-05-31 12:00:16.477 -          C:\Program Files (x86)\LogMeIn\x64\LMImirr.dll has valid sha256RSA signature.
+2019-05-31 12:00:16.586 -          C:\Program Files (x86)\LogMeIn\x64\LMImirr.sys has valid sha256RSA signature.
+2019-05-31 12:00:16.820 -          C:\Program Files (x86)\LogMeIn\x64\lmimirr2.dll has valid sha256RSA signature.
+2019-05-31 12:00:16.930 -          C:\Program Files (x86)\LogMeIn\x64\LMIport.dll has valid sha256RSA signature.
+2019-05-31 12:00:17.040 -          C:\Program Files (x86)\LogMeIn\x64\LMIprinter.dll has valid sha256RSA signature.
+2019-05-31 12:00:17.149 -          C:\Program Files (x86)\LogMeIn\x64\LMIprinterui.dll has valid sha256RSA signature.
+2019-05-31 12:00:17.273 -          C:\Program Files (x86)\LogMeIn\x64\LMIproc.dll has valid sha256RSA signature.
+2019-05-31 12:00:17.383 -          C:\Program Files (x86)\LogMeIn\x64\LMIRfsClientNP.dll has valid sha256RSA signature.
+2019-05-31 12:00:17.493 -          C:\Program Files (x86)\LogMeIn\x64\LMIRfsDriver.sys has valid sha256RSA signature.
+2019-05-31 12:00:18.039 -          C:\Program Files (x86)\LogMeIn\x64\LogMeIn.dll has valid sha256RSA signature.
+2019-05-31 12:00:18.149 - Warning: C:\Program Files (x86)\LogMeIn\x64\LogMeIn.exe is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:00:18.368 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInAV.dll has valid sha256RSA signature.
+2019-05-31 12:00:18.696 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInAVServer.exe has valid sha256RSA signature.
+2019-05-31 12:00:18.914 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInRC.exe has valid sha256RSA signature.
+2019-05-31 12:00:19.274 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInSystray.dll has valid sha256RSA signature.
+2019-05-31 12:00:19.399 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInSystray.exe has valid sha256RSA signature.
+2019-05-31 12:00:19.742 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInToolkit.exe has valid sha256RSA signature.
+2019-05-31 12:00:19.977 -          C:\Program Files (x86)\LogMeIn\x64\openssl.exe has valid sha256RSA signature.
+2019-05-31 12:00:20.196 -          C:\Program Files (x86)\LogMeIn\x64\radpms.sys has valid sha256RSA signature.
+2019-05-31 12:00:20.445 -          C:\Program Files (x86)\LogMeIn\x64\rahook.dll has valid sha256RSA signature.
+2019-05-31 12:00:20.680 -          C:\Program Files (x86)\LogMeIn\x64\rainst.exe has valid sha256RSA signature.
+2019-05-31 12:00:20.899 -          C:\Program Files (x86)\LogMeIn\x64\ramaint.exe has valid sha256RSA signature.
+2019-05-31 12:00:21.008 -          C:\Program Files (x86)\LogMeIn\x64\rntfywnd.dll has valid sha256RSA signature.
+2019-05-31 12:00:21.227 -          C:\Program Files (x86)\LogMeIn\x64\TouchFilter.sys has valid sha256RSA signature.
+2019-05-31 12:00:21.461 -          C:\Program Files (x86)\LogMeIn\x64\wa_3rd_party_host_32.exe has valid sha256RSA signature.
+2019-05-31 12:00:21.789 -          C:\Program Files (x86)\LogMeIn\x64\wa_3rd_party_host_64.exe has valid sha256RSA signature.
+2019-05-31 12:00:22.023 -          C:\Program Files (x86)\LogMeIn\x64\zip.exe has valid sha256RSA signature.
+2019-05-31 12:00:22.133 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\lmiinfo.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:00:22.258 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMImirr.dll is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:00:22.601 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMImirr.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:00:22.821 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\lmimirr2.dll is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:00:23.054 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMIRfsDriver.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:00:23.273 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\radpms.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:00:23.273 -          Signature OK!
+2019-05-31 12:00:23.273 -          Checking ignition install and signature
+2019-05-31 12:00:23.273 -          Checking install
+2019-05-31 12:00:23.273 -          File list OK!
+2019-05-31 12:00:23.273 -          Checking Signature
+2019-05-31 12:00:23.571 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianDll.dll has valid sha256RSA signature.
+2019-05-31 12:00:23.680 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianEvt.dll has valid sha256RSA signature.
+2019-05-31 12:00:24.008 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianSvc.exe has valid sha256RSA signature.
+2019-05-31 12:00:25.024 -          C:\Program Files (x86)\LogMeIn Ignition\LMIIgnition.exe has valid sha256RSA signature.
+2019-05-31 12:00:25.133 -          C:\Program Files (x86)\LogMeIn Ignition\LMIProxyHelper.exe has valid sha256RSA signature.
+2019-05-31 12:00:25.586 -          C:\Program Files (x86)\LogMeIn Ignition\RACtrl.dll has valid sha256RSA signature.
+2019-05-31 12:00:25.711 -          C:\Program Files (x86)\LogMeIn Ignition\RACtrlKeyHook.dll has valid sha256RSA signature.
+2019-05-31 12:00:25.711 -          Signature OK!
+2019-05-31 12:00:25.711 -          Checking whether correct processes of the host are running.
+2019-05-31 12:00:25.742 -          The required processes are running.
+2019-05-31 12:00:25.742 -          Checking ForceShowClient and ForceShowControlPanel registry value
+2019-05-31 12:00:25.774 -          ForceShowClient and ForceShowControlPanel values are OK!
+2019-05-31 12:00:25.774 -          Checking whether Toolkit app is hidden.
+2019-05-31 12:00:25.774 -          Toolkit app is visible.
+2019-05-31 12:00:25.774 -          Host GUI is closed.
+2019-05-31 12:00:25.774 -          Ignition GUI is closed.
+2019-05-31 12:00:25.774 -          Uninstall Host
+2019-05-31 12:00:25.774 -          Active cert ID: db4400bd21f5942b97c9064b61e4349d
+2019-05-31 12:00:25.774 -          Cert found
+2019-05-31 12:00:45.130 -          Uninstall successful!
+2019-05-31 12:00:45.130 -          Checking Uninstall
+2019-05-31 12:00:45.146 -          Cert NOT found
+2019-05-31 12:00:45.146 -          File list OK!
+2019-05-31 12:00:45.146 -          Searching for crash dumps.
+2019-05-31 12:00:45.146 -    Step: TestCase PASSED: 'LMIAutomation.Host.InstallTest.TC01_DefaultInstall' --------------------------------------------------------------------------------------------------------------
+2019-05-31 12:00:45.146 -          Starting CleanUp!
+2019-05-31 12:00:45.146 -          Deleting folder: C:\Users\admin\AppData\Local\Temp\LMI4FE0.tmp
+2019-05-31 12:00:45.161 -          'chromedriver' process is not running.
+2019-05-31 12:00:45.161 -          'chrome' process is not running.
+2019-05-31 12:00:45.161 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 12:00:45.177 -          Deleting file: C:\Users\admin\AppData\Local\Temp\Appsettings\host_install_20190531_115913.log
+2019-05-31 12:00:45.177 -          Stopping process:
+2019-05-31 12:00:45.177 -          	Name:msiexec: ID:6172
+2019-05-31 12:00:45.177 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 12:00:45.177 -          'msiexec' process stopped.
+2019-05-31 12:00:45.177 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 12:00:45.177 -          Stopping Toolkit
+2019-05-31 12:00:45.177 -          'LogMeInToolkit' process is not running.
+2019-05-31 12:00:45.193 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 12:00:45.193 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 12:00:45.193 -          Uninstall Host
+2019-05-31 12:00:45.208 -          Cert NOT found
+2019-05-31 12:00:45.224 -          Uninstall successful!
+2019-05-31 12:00:45.224 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 12:00:45.224 -          Stopping Ignition
+2019-05-31 12:00:45.224 -          'LMIIgnition' process is not running.
+2019-05-31 12:00:45.224 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:00:45.224 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:00:45.224 -          Cleanup GRPC from: C:\Program Files (x86)\LogMeIn Ignition
+2019-05-31 12:00:45.224 -          Ignition GRPC cleaned up.
+2019-05-31 12:00:45.224 -          Uninstall Ignition
+2019-05-31 12:00:47.224 -          Uninstall successful.
+2019-05-31 12:00:47.224 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 12:00:47.224 -          Stopping Ignition
+2019-05-31 12:00:47.224 -          'LMIIgnition' process is not running.
+2019-05-31 12:00:47.224 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:00:47.239 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:00:47.239 -          Uninstall Ignition
+2019-05-31 12:00:47.239 -          Uninstall successful.
+2019-05-31 12:00:47.239 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 12:00:47.239 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 12:00:47.271 -          Changing time to 05/31/2019 12:00:47
+2019-05-31 12:00:47.301 -          Changing OS time successful
+2019-05-31 12:00:47.310 -    Step: TestBase TearDown
+=> LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient
+2019-05-31 12:00:47.326 -    Step: TestBase Setup
+2019-05-31 12:00:47.326 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 12:00:47.326 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:00:47.326 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 12:00:47.326 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:00:47.326 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 12:00:47.341 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:00:47.341 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 12:00:47.341 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:00:47.341 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 12:00:47.341 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 12:00:47.341 -    Step: TestSetup
+2019-05-31 12:00:47.341 -          Starting CleanUp!
+2019-05-31 12:00:47.357 -          'chromedriver' process is not running.
+2019-05-31 12:00:47.357 -          'chrome' process is not running.
+2019-05-31 12:00:47.357 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 12:00:47.372 -          Stopping process:
+2019-05-31 12:00:47.372 -          	Name:msiexec: ID:3364
+2019-05-31 12:00:47.372 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 12:00:47.372 -          'msiexec' process stopped.
+2019-05-31 12:00:47.372 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 12:00:47.372 -          Stopping Toolkit
+2019-05-31 12:00:47.388 -          'LogMeInToolkit' process is not running.
+2019-05-31 12:00:47.388 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 12:00:47.388 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 12:00:47.388 -          Uninstall Host
+2019-05-31 12:00:47.388 -          Cert NOT found
+2019-05-31 12:00:47.404 -          Uninstall successful!
+2019-05-31 12:00:47.404 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 12:00:47.404 -          Stopping Ignition
+2019-05-31 12:00:47.419 -          'LMIIgnition' process is not running.
+2019-05-31 12:00:47.419 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:00:47.419 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:00:47.419 -          Uninstall Ignition
+2019-05-31 12:00:47.419 -          Uninstall successful.
+2019-05-31 12:00:47.419 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 12:00:47.419 -          Stopping Ignition
+2019-05-31 12:00:47.435 -          'LMIIgnition' process is not running.
+2019-05-31 12:00:47.435 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:00:47.435 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:00:47.435 -          Uninstall Ignition
+2019-05-31 12:00:47.435 -          Uninstall successful.
+2019-05-31 12:00:47.435 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 12:00:47.435 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 12:00:47.466 -          Changing time to 05/31/2019 12:00:47
+2019-05-31 12:00:47.476 -          Changing OS time successful
+2019-05-31 12:00:47.481 -          Enabling host Trace level log
+2019-05-31 12:00:47.481 -    Step: TestCase STARTED: 'LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient' --------------------------------------------------------------------------------------------------------
+2019-05-31 12:00:47.481 -          Host version:    4.1.0.12624
+2019-05-31 12:00:47.481 -          Enabling client Trace level log
+2019-05-31 12:00:47.481 -          Setting HomeSite to lmiautomation2.dev.3amlabs.net for Host
+2019-05-31 12:00:47.481 -          Redirecting update.logmein.com to 192.168.0.162.
+2019-05-31 12:00:47.513 -          Installing host version '4.1.0.12624'
+2019-05-31 12:00:47.513 -          Get all builds for host from Artifactory
+2019-05-31 12:00:49.356 -          Downloading build: /host-4.1.0.12624+win32.hotfix_train-20190514.tgz
+2019-05-31 12:00:49.356 -          'C:\Users\admin\AppData\Local\Temp\ApploaderTemp\host-4.1.0.12624+win32.hotfix_train-20190514.tgz' already downloaded
+2019-05-31 12:00:50.825 -          MD5 hash of existing tgz file (e4f48895f56a5571ba34479b6b816212), and hash of the build on artifactory (e4f48895f56a5571ba34479b6b816212) are the same, no need to download again.
+2019-05-31 12:00:50.825 -          MD5 hash of existing tgz file (e4f48895f56a5571ba34479b6b816212), and hash of the build on artifactory (e4f48895f56a5571ba34479b6b816212) are different.
+2019-05-31 12:00:50.825 -          Downloading build from Europe artifactory.
+2019-05-31 12:02:48.669 -          Extracting downloaded tgz...
+2019-05-31 12:02:54.028 -          Installing Host 'LMI40112624nh.msi'
+2019-05-31 12:02:54.028 -          Creating directory for proto file at 'C:\Program Files (x86)\LogMeIn\x64'
+2019-05-31 12:02:54.028 -          Copying libprotobuf-lite.dll from: C:\ftp\nunitPlugin\x64\libprotobuf-lite.dll to: C:\Program Files (x86)\LogMeIn\x64\libprotobuf-lite.dll
+2019-05-31 12:02:54.044 -          Host GRPC prepared
+2019-05-31 12:02:54.044 -          Saving install log to 'C:\Users\admin\AppData\Local\Temp\Appsettings\host_install_20190531_120254.log'
+2019-05-31 12:03:22.528 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:03:22.528 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:03:22.528 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:03:22.528 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:03:22.528 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:03:22.528 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:03:22.528 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:03:22.528 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:03:36.070 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:03:36.070 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:03:36.070 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:03:36.070 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:03:40.885 -          Ignition GRPC prepared
+2019-05-31 12:03:40.885 -          Install successful.
+2019-05-31 12:03:40.885 -          Waiting for Ignition download
+2019-05-31 12:03:42.999 -          Ignition successfully downloaded
+2019-05-31 12:03:43.015 -          Current HostInterface.Application.WinHostApplication version is: 4.1.0.12624
+2019-05-31 12:03:43.015 -          Waiting for: 'OESISLibUpdater - Updater apply OK' in log file.
+2019-05-31 12:03:44.099 -          '2019-05-31 12:03:44.022 - Info      - LogMeIn - NT AUTHORITY\SYSTEM - 00640 - 0x00001CE8 - OESISLibUpdater - Updater apply OK' FOUND!
+2019-05-31 12:03:44.099 -          Service status: Running
+2019-05-31 12:03:44.099 -          Host login successful - HostID: 1000474153
+2019-05-31 12:03:44.114 -          Current HostInterface.Application.WinHostApplication version is: 4.1.0.12624
+2019-05-31 12:03:44.114 -          Checking install
+2019-05-31 12:03:44.114 -          File list OK!
+2019-05-31 12:03:44.114 -          Checking Signature
+2019-05-31 12:03:44.349 -          C:\Program Files (x86)\LogMeIn\x64\cppwinrtdll.dll has valid sha256RSA signature.
+2019-05-31 12:03:44.677 -          C:\Program Files (x86)\LogMeIn\x64\ksu.dll has valid sha256RSA signature.
+2019-05-31 12:03:44.911 -          C:\Program Files (x86)\LogMeIn\x64\libwaapi.dll has valid sha256RSA signature.
+2019-05-31 12:03:45.021 -          C:\Program Files (x86)\LogMeIn\x64\libwaheap.dll has valid sha256RSA signature.
+2019-05-31 12:03:45.256 -          C:\Program Files (x86)\LogMeIn\x64\libwalocal.dll has valid sha256RSA signature.
+2019-05-31 12:03:45.615 -          C:\Program Files (x86)\LogMeIn\x64\libwaremoval.dll has valid sha256RSA signature.
+2019-05-31 12:03:45.834 -          C:\Program Files (x86)\LogMeIn\x64\libwaresource.dll has valid sha256RSA signature.
+2019-05-31 12:03:46.068 -          C:\Program Files (x86)\LogMeIn\x64\libwautils.dll has valid sha256RSA signature.
+2019-05-31 12:03:46.287 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianDll.dll has valid sha256RSA signature.
+2019-05-31 12:03:46.396 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianEvt.dll has valid sha256RSA signature.
+2019-05-31 12:03:46.505 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianSvc.exe has valid sha256RSA signature.
+2019-05-31 12:03:46.615 -          C:\Program Files (x86)\LogMeIn\x64\lmiinfo.sys has valid sha256RSA signature.
+2019-05-31 12:03:46.865 -          C:\Program Files (x86)\LogMeIn\x64\LMIinit.dll has valid sha256RSA signature.
+2019-05-31 12:03:47.099 -          C:\Program Files (x86)\LogMeIn\x64\LMImirr.dll has valid sha256RSA signature.
+2019-05-31 12:03:47.209 -          C:\Program Files (x86)\LogMeIn\x64\LMImirr.sys has valid sha256RSA signature.
+2019-05-31 12:03:47.318 -          C:\Program Files (x86)\LogMeIn\x64\lmimirr2.dll has valid sha256RSA signature.
+2019-05-31 12:03:47.552 -          C:\Program Files (x86)\LogMeIn\x64\LMIport.dll has valid sha256RSA signature.
+2019-05-31 12:03:47.662 -          C:\Program Files (x86)\LogMeIn\x64\LMIprinter.dll has valid sha256RSA signature.
+2019-05-31 12:03:47.772 -          C:\Program Files (x86)\LogMeIn\x64\LMIprinterui.dll has valid sha256RSA signature.
+2019-05-31 12:03:47.881 -          C:\Program Files (x86)\LogMeIn\x64\LMIproc.dll has valid sha256RSA signature.
+2019-05-31 12:03:47.990 -          C:\Program Files (x86)\LogMeIn\x64\LMIRfsClientNP.dll has valid sha256RSA signature.
+2019-05-31 12:03:48.208 -          C:\Program Files (x86)\LogMeIn\x64\LMIRfsDriver.sys has valid sha256RSA signature.
+2019-05-31 12:03:48.897 -          C:\Program Files (x86)\LogMeIn\x64\LogMeIn.dll has valid sha256RSA signature.
+2019-05-31 12:03:49.115 - Warning: C:\Program Files (x86)\LogMeIn\x64\LogMeIn.exe is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:03:49.349 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInAV.dll has valid sha256RSA signature.
+2019-05-31 12:03:49.584 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInAVServer.exe has valid sha256RSA signature.
+2019-05-31 12:03:49.693 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInRC.exe has valid sha256RSA signature.
+2019-05-31 12:03:49.818 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInSystray.dll has valid sha256RSA signature.
+2019-05-31 12:03:49.927 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInSystray.exe has valid sha256RSA signature.
+2019-05-31 12:03:50.287 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInToolkit.exe has valid sha256RSA signature.
+2019-05-31 12:03:50.396 -          C:\Program Files (x86)\LogMeIn\x64\openssl.exe has valid sha256RSA signature.
+2019-05-31 12:03:50.521 -          C:\Program Files (x86)\LogMeIn\x64\radpms.sys has valid sha256RSA signature.
+2019-05-31 12:03:50.630 -          C:\Program Files (x86)\LogMeIn\x64\rahook.dll has valid sha256RSA signature.
+2019-05-31 12:03:50.755 -          C:\Program Files (x86)\LogMeIn\x64\rainst.exe has valid sha256RSA signature.
+2019-05-31 12:03:50.865 -          C:\Program Files (x86)\LogMeIn\x64\ramaint.exe has valid sha256RSA signature.
+2019-05-31 12:03:50.990 -          C:\Program Files (x86)\LogMeIn\x64\rntfywnd.dll has valid sha256RSA signature.
+2019-05-31 12:03:51.100 -          C:\Program Files (x86)\LogMeIn\x64\TouchFilter.sys has valid sha256RSA signature.
+2019-05-31 12:03:51.224 -          C:\Program Files (x86)\LogMeIn\x64\wa_3rd_party_host_32.exe has valid sha256RSA signature.
+2019-05-31 12:03:51.334 -          C:\Program Files (x86)\LogMeIn\x64\wa_3rd_party_host_64.exe has valid sha256RSA signature.
+2019-05-31 12:03:51.459 -          C:\Program Files (x86)\LogMeIn\x64\zip.exe has valid sha256RSA signature.
+2019-05-31 12:03:51.568 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\lmiinfo.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:03:51.693 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMImirr.dll is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:03:51.818 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMImirr.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:03:51.927 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\lmimirr2.dll is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:03:52.037 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMIRfsDriver.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:03:52.146 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\radpms.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:03:52.146 -          Signature OK!
+2019-05-31 12:03:52.146 -          Checking ignition install and signature
+2019-05-31 12:03:52.146 -          Checking install
+2019-05-31 12:03:52.146 -          File list OK!
+2019-05-31 12:03:52.146 -          Checking Signature
+2019-05-31 12:03:52.256 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianDll.dll has valid sha256RSA signature.
+2019-05-31 12:03:52.365 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianEvt.dll has valid sha256RSA signature.
+2019-05-31 12:03:52.474 -          C:\Program Files (x86)\LogMeIn Ignition\LMIGuardianSvc.exe has valid sha256RSA signature.
+2019-05-31 12:03:52.709 -          C:\Program Files (x86)\LogMeIn Ignition\LMIIgnition.exe has valid sha256RSA signature.
+2019-05-31 12:03:52.833 -          C:\Program Files (x86)\LogMeIn Ignition\LMIProxyHelper.exe has valid sha256RSA signature.
+2019-05-31 12:03:53.068 -          C:\Program Files (x86)\LogMeIn Ignition\RACtrl.dll has valid sha256RSA signature.
+2019-05-31 12:03:53.178 -          C:\Program Files (x86)\LogMeIn Ignition\RACtrlKeyHook.dll has valid sha256RSA signature.
+2019-05-31 12:03:53.178 -          Signature OK!
+2019-05-31 12:03:53.178 -          Checking whether correct processes of the host are running.
+2019-05-31 12:03:53.178 -          The required processes are running.
+2019-05-31 12:03:53.178 -          Checking ForceShowClient and ForceShowControlPanel registry value
+2019-05-31 12:03:53.178 -          ForceShowClient and ForceShowControlPanel values are OK!
+2019-05-31 12:03:53.178 -          Checking whether Toolkit app is hidden.
+2019-05-31 12:03:53.178 -          Toolkit app is visible.
+2019-05-31 12:03:53.178 -          Host GUI is closed.
+2019-05-31 12:03:53.178 -          Ignition GUI is closed.
+2019-05-31 12:03:53.178 -          Searching for crash dumps.
+2019-05-31 12:03:53.178 -    Step: TestCase PASSED: 'LMIAutomation.Host.InstallTest.TC02_ShowHost_ShowClient' ---------------------------------------------------------------------------------------------------------
+2019-05-31 12:03:53.178 -          Starting CleanUp!
+2019-05-31 12:03:53.178 -          Deleting folder: C:\Users\admin\AppData\Local\Temp\LMIA97B.tmp
+2019-05-31 12:03:53.192 -          'chromedriver' process is not running.
+2019-05-31 12:03:53.192 -          'chrome' process is not running.
+2019-05-31 12:03:53.192 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 12:03:53.192 -          Deleting file: C:\Users\admin\AppData\Local\Temp\Appsettings\host_install_20190531_120254.log
+2019-05-31 12:03:53.192 -          Stopping process:
+2019-05-31 12:03:53.192 -          	Name:msiexec: ID:5548
+2019-05-31 12:03:53.192 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 12:03:53.192 -          'msiexec' process stopped.
+2019-05-31 12:03:53.192 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 12:03:53.192 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 12:03:53.192 -          Stopping Toolkit
+2019-05-31 12:03:53.192 -          'LogMeInToolkit' process is not running.
+2019-05-31 12:03:53.192 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 12:03:53.208 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 12:03:53.208 -          Cleanup GRPC from: C:\Program Files (x86)\LogMeIn\x64
+2019-05-31 12:03:53.208 -          Host GRPC cleaned up.
+2019-05-31 12:03:53.208 -          Uninstall Host
+2019-05-31 12:03:53.208 -          Active cert ID: 2bdc8d1f1ea1af936433d5fe863774bb
+2019-05-31 12:03:53.208 -          Cert found
+2019-05-31 12:04:08.673 -          Uninstall successful!
+2019-05-31 12:04:08.673 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 12:04:08.673 -          Stopping Ignition
+2019-05-31 12:04:08.673 -          'LMIIgnition' process is not running.
+2019-05-31 12:04:08.673 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:04:08.673 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:04:08.688 -          Cleanup GRPC from: C:\Program Files (x86)\LogMeIn Ignition
+2019-05-31 12:04:08.688 -          Ignition GRPC cleaned up.
+2019-05-31 12:04:08.688 -          Uninstall Ignition
+2019-05-31 12:04:09.516 -          Uninstall successful.
+2019-05-31 12:04:09.516 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 12:04:09.516 -          Stopping Ignition
+2019-05-31 12:04:09.516 -          'LMIIgnition' process is not running.
+2019-05-31 12:04:09.516 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:04:09.516 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:04:09.516 -          Uninstall Ignition
+2019-05-31 12:04:09.516 -          Uninstall successful.
+2019-05-31 12:04:09.516 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 12:04:09.516 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 12:04:09.532 -          Changing time to 05/31/2019 12:04:09
+2019-05-31 12:04:09.552 -          Changing OS time successful
+2019-05-31 12:04:09.552 -    Step: TestBase TearDown
+=> LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient
+2019-05-31 12:04:09.552 -    Step: TestBase Setup
+2019-05-31 12:04:09.552 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LogMeIn.*
+2019-05-31 12:04:09.552 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:04:09.552 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 12:04:09.552 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:04:09.552 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 12:04:09.552 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:04:09.552 -          Watch C:\ProgramData\LogMeIn\Dumps for patterns: LMIIgnition.*
+2019-05-31 12:04:09.552 - Warning: Waiting for folder: LogMeIn creation in C:\ProgramData
+2019-05-31 12:04:09.552 -          Watch C:\ProgramData\RemotelyAnywhere\Dumps for patterns: RemotelyAnywhere.*
+2019-05-31 12:04:09.552 - Warning: Waiting for folder: RemotelyAnywhere creation in C:\ProgramData
+2019-05-31 12:04:09.552 -    Step: TestSetup
+2019-05-31 12:04:09.552 -          Starting CleanUp!
+2019-05-31 12:04:09.568 -          'chromedriver' process is not running.
+2019-05-31 12:04:09.568 -          'chrome' process is not running.
+2019-05-31 12:04:09.568 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 12:04:09.568 -          Stopping process:
+2019-05-31 12:04:09.568 -          	Name:msiexec: ID:6900
+2019-05-31 12:04:09.568 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 12:04:09.568 -          'msiexec' process stopped.
+2019-05-31 12:04:09.568 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 12:04:09.568 -          Stopping Toolkit
+2019-05-31 12:04:09.583 -          'LogMeInToolkit' process is not running.
+2019-05-31 12:04:09.583 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 12:04:09.583 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 12:04:09.583 -          Uninstall Host
+2019-05-31 12:04:09.583 -          Cert NOT found
+2019-05-31 12:04:09.599 -          Uninstall successful!
+2019-05-31 12:04:09.599 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 12:04:09.599 -          Stopping Ignition
+2019-05-31 12:04:09.599 -          'LMIIgnition' process is not running.
+2019-05-31 12:04:09.599 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:04:09.599 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:04:09.599 -          Uninstall Ignition
+2019-05-31 12:04:09.599 -          Uninstall successful.
+2019-05-31 12:04:09.599 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 12:04:09.599 -          Stopping Ignition
+2019-05-31 12:04:09.599 -          'LMIIgnition' process is not running.
+2019-05-31 12:04:09.599 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:04:09.599 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:04:09.599 -          Uninstall Ignition
+2019-05-31 12:04:09.599 -          Uninstall successful.
+2019-05-31 12:04:09.599 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 12:04:09.599 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 12:04:09.630 -          Changing time to 05/31/2019 12:04:09
+2019-05-31 12:04:09.634 -          Changing OS time successful
+2019-05-31 12:04:09.639 -          Enabling host Trace level log
+2019-05-31 12:04:09.639 -    Step: TestCase STARTED: 'LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient' --------------------------------------------------------------------------------------------------------
+2019-05-31 12:04:09.639 -          Host version:    4.1.0.12624
+2019-05-31 12:04:09.639 -          Enabling client Trace level log
+2019-05-31 12:04:09.639 -          Setting HomeSite to lmiautomation2.dev.3amlabs.net for Host
+2019-05-31 12:04:09.639 -          Redirecting update.logmein.com to 192.168.0.162.
+2019-05-31 12:04:09.639 -          Installing host version '4.1.0.12624'
+2019-05-31 12:04:09.639 -          Get all builds for host from Artifactory
+2019-05-31 12:04:11.499 -          Downloading build: /host-4.1.0.12624+win32.hotfix_train-20190514.tgz
+2019-05-31 12:04:11.499 -          'C:\Users\admin\AppData\Local\Temp\ApploaderTemp\host-4.1.0.12624+win32.hotfix_train-20190514.tgz' already downloaded
+2019-05-31 12:04:12.452 -          MD5 hash of existing tgz file (e4f48895f56a5571ba34479b6b816212), and hash of the build on artifactory (e4f48895f56a5571ba34479b6b816212) are the same, no need to download again.
+2019-05-31 12:04:12.452 -          MD5 hash of existing tgz file (e4f48895f56a5571ba34479b6b816212), and hash of the build on artifactory (e4f48895f56a5571ba34479b6b816212) are different.
+2019-05-31 12:04:12.452 -          Downloading build from Europe artifactory.
+2019-05-31 12:06:07.967 -          Extracting downloaded tgz...
+2019-05-31 12:06:11.155 -          Installing Host 'LMI40112624nh.msi'
+2019-05-31 12:06:11.155 -          Creating directory for proto file at 'C:\Program Files (x86)\LogMeIn\x64'
+2019-05-31 12:06:11.155 -          Copying libprotobuf-lite.dll from: C:\ftp\nunitPlugin\x64\libprotobuf-lite.dll to: C:\Program Files (x86)\LogMeIn\x64\libprotobuf-lite.dll
+2019-05-31 12:06:11.155 -          Host GRPC prepared
+2019-05-31 12:06:11.155 -          Saving install log to 'C:\Users\admin\AppData\Local\Temp\Appsettings\host_install_20190531_120611.log'
+2019-05-31 12:06:29.046 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:06:29.046 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:06:29.046 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:06:29.046 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:06:29.046 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:06:29.046 -          Folder: C:\ProgramData\LogMeIn created.
+2019-05-31 12:06:29.046 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:06:29.061 - Warning: Waiting for folder: Dumps creation in C:\ProgramData\LogMeIn
+2019-05-31 12:06:38.858 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:06:38.858 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:06:38.858 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:06:38.858 -          Folder: C:\ProgramData\LogMeIn\Dumps created.
+2019-05-31 12:06:42.702 -          Install successful.
+2019-05-31 12:06:42.702 -          Current HostInterface.Application.WinHostApplication version is: 4.1.0.12624
+2019-05-31 12:06:42.702 -          Waiting for: 'OESISLibUpdater - Updater apply OK' in log file.
+2019-05-31 12:06:50.874 -          '2019-05-31 12:06:47.671 - Info      - LogMeIn - NT AUTHORITY\SYSTEM - 08252 - 0x00000C74 - OESISLibUpdater - Updater apply OK' FOUND!
+2019-05-31 12:06:50.874 -          Service status: Running
+2019-05-31 12:06:50.874 -          Host login successful - HostID: 1000474154
+2019-05-31 12:06:50.874 -          Current HostInterface.Application.WinHostApplication version is: 4.1.0.12624
+2019-05-31 12:06:50.874 -          Checking install
+2019-05-31 12:06:50.874 -          File list OK!
+2019-05-31 12:06:50.874 -          Checking Signature
+2019-05-31 12:06:51.015 -          C:\Program Files (x86)\LogMeIn\x64\cppwinrtdll.dll has valid sha256RSA signature.
+2019-05-31 12:06:51.124 -          C:\Program Files (x86)\LogMeIn\x64\ksu.dll has valid sha256RSA signature.
+2019-05-31 12:06:51.249 -          C:\Program Files (x86)\LogMeIn\x64\libwaapi.dll has valid sha256RSA signature.
+2019-05-31 12:06:51.359 -          C:\Program Files (x86)\LogMeIn\x64\libwaheap.dll has valid sha256RSA signature.
+2019-05-31 12:06:51.483 -          C:\Program Files (x86)\LogMeIn\x64\libwalocal.dll has valid sha256RSA signature.
+2019-05-31 12:06:51.718 -          C:\Program Files (x86)\LogMeIn\x64\libwaremoval.dll has valid sha256RSA signature.
+2019-05-31 12:06:51.827 -          C:\Program Files (x86)\LogMeIn\x64\libwaresource.dll has valid sha256RSA signature.
+2019-05-31 12:06:51.952 -          C:\Program Files (x86)\LogMeIn\x64\libwautils.dll has valid sha256RSA signature.
+2019-05-31 12:06:52.062 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianDll.dll has valid sha256RSA signature.
+2019-05-31 12:06:52.186 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianEvt.dll has valid sha256RSA signature.
+2019-05-31 12:06:52.296 -          C:\Program Files (x86)\LogMeIn\x64\LMIGuardianSvc.exe has valid sha256RSA signature.
+2019-05-31 12:06:52.405 -          C:\Program Files (x86)\LogMeIn\x64\lmiinfo.sys has valid sha256RSA signature.
+2019-05-31 12:06:52.514 -          C:\Program Files (x86)\LogMeIn\x64\LMIinit.dll has valid sha256RSA signature.
+2019-05-31 12:06:52.624 -          C:\Program Files (x86)\LogMeIn\x64\LMImirr.dll has valid sha256RSA signature.
+2019-05-31 12:06:52.733 -          C:\Program Files (x86)\LogMeIn\x64\LMImirr.sys has valid sha256RSA signature.
+2019-05-31 12:06:52.858 -          C:\Program Files (x86)\LogMeIn\x64\lmimirr2.dll has valid sha256RSA signature.
+2019-05-31 12:06:52.968 -          C:\Program Files (x86)\LogMeIn\x64\LMIport.dll has valid sha256RSA signature.
+2019-05-31 12:06:53.093 -          C:\Program Files (x86)\LogMeIn\x64\LMIprinter.dll has valid sha256RSA signature.
+2019-05-31 12:06:53.202 -          C:\Program Files (x86)\LogMeIn\x64\LMIprinterui.dll has valid sha256RSA signature.
+2019-05-31 12:06:53.324 -          C:\Program Files (x86)\LogMeIn\x64\LMIproc.dll has valid sha256RSA signature.
+2019-05-31 12:06:53.437 -          C:\Program Files (x86)\LogMeIn\x64\LMIRfsClientNP.dll has valid sha256RSA signature.
+2019-05-31 12:06:53.561 -          C:\Program Files (x86)\LogMeIn\x64\LMIRfsDriver.sys has valid sha256RSA signature.
+2019-05-31 12:06:53.905 -          C:\Program Files (x86)\LogMeIn\x64\LogMeIn.dll has valid sha256RSA signature.
+2019-05-31 12:06:54.030 - Warning: C:\Program Files (x86)\LogMeIn\x64\LogMeIn.exe is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:06:54.140 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInAV.dll has valid sha256RSA signature.
+2019-05-31 12:06:54.358 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInAVServer.exe has valid sha256RSA signature.
+2019-05-31 12:06:54.468 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInRC.exe has valid sha256RSA signature.
+2019-05-31 12:06:54.702 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInSystray.dll has valid sha256RSA signature.
+2019-05-31 12:06:54.812 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInSystray.exe has valid sha256RSA signature.
+2019-05-31 12:06:55.045 -          C:\Program Files (x86)\LogMeIn\x64\LogMeInToolkit.exe has valid sha256RSA signature.
+2019-05-31 12:06:55.156 -          C:\Program Files (x86)\LogMeIn\x64\openssl.exe has valid sha256RSA signature.
+2019-05-31 12:06:55.280 -          C:\Program Files (x86)\LogMeIn\x64\radpms.sys has valid sha256RSA signature.
+2019-05-31 12:06:55.390 -          C:\Program Files (x86)\LogMeIn\x64\rahook.dll has valid sha256RSA signature.
+2019-05-31 12:06:55.515 -          C:\Program Files (x86)\LogMeIn\x64\rainst.exe has valid sha256RSA signature.
+2019-05-31 12:06:55.624 -          C:\Program Files (x86)\LogMeIn\x64\ramaint.exe has valid sha256RSA signature.
+2019-05-31 12:06:55.733 -          C:\Program Files (x86)\LogMeIn\x64\rntfywnd.dll has valid sha256RSA signature.
+2019-05-31 12:06:55.843 -          C:\Program Files (x86)\LogMeIn\x64\TouchFilter.sys has valid sha256RSA signature.
+2019-05-31 12:06:55.952 -          C:\Program Files (x86)\LogMeIn\x64\wa_3rd_party_host_32.exe has valid sha256RSA signature.
+2019-05-31 12:06:56.077 -          C:\Program Files (x86)\LogMeIn\x64\wa_3rd_party_host_64.exe has valid sha256RSA signature.
+2019-05-31 12:06:56.296 -          C:\Program Files (x86)\LogMeIn\x64\zip.exe has valid sha256RSA signature.
+2019-05-31 12:06:56.421 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\lmiinfo.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:06:56.531 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMImirr.dll is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:06:56.655 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMImirr.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:06:56.765 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\lmimirr2.dll is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:06:56.890 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\LMIRfsDriver.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:06:56.999 - Warning: C:\Program Files (x86)\LogMeIn\x64\Vista\radpms.sys is signed, but using sha1RSA instead of sha256RSA. This file also should be signed with sha2 soon.
+2019-05-31 12:06:56.999 -          Signature OK!
+2019-05-31 12:06:56.999 -          Checking whether correct processes of the host are running.
+2019-05-31 12:06:56.999 -          The required processes are running.
+2019-05-31 12:06:56.999 -          Checking ForceShowClient and ForceShowControlPanel registry value
+2019-05-31 12:06:56.999 -          ForceShowClient and ForceShowControlPanel values are OK!
+2019-05-31 12:06:56.999 -          Checking whether Toolkit app is hidden.
+2019-05-31 12:06:56.999 -          Toolkit app is visible.
+2019-05-31 12:06:57.014 -          Host GUI is closed.
+2019-05-31 12:06:57.014 -          Ignition GUI is closed.
+2019-05-31 12:06:57.014 -          Searching for crash dumps.
+2019-05-31 12:06:57.014 -    Step: TestCase PASSED: 'LMIAutomation.Host.InstallTest.TC03_ShowHost_HideClient' ---------------------------------------------------------------------------------------------------------
+2019-05-31 12:06:57.014 -          Starting CleanUp!
+2019-05-31 12:06:57.030 -          'chromedriver' process is not running.
+2019-05-31 12:06:57.030 -          'chrome' process is not running.
+2019-05-31 12:06:57.030 -          Folder not found, can't be deleted: C:\Users\admin\AppData\Local\Temp\LMIAutomationResults
+2019-05-31 12:06:57.030 -          Deleting file: C:\Users\admin\AppData\Local\Temp\Appsettings\host_install_20190531_120611.log
+2019-05-31 12:06:57.046 -          Stopping process:
+2019-05-31 12:06:57.046 -          	Name:msiexec: ID:8440
+2019-05-31 12:06:57.046 - Warning: Killing process 'msiexec' because closing failed
+2019-05-31 12:06:57.046 -          'msiexec' process stopped.
+2019-05-31 12:06:57.046 -          Deleting LogMeIn dump files from C:\ProgramData\LogMeIn\Dumps
+2019-05-31 12:06:57.046 -    Step: Uninstalling: HostInterface.Application.WinHostApplication
+2019-05-31 12:06:57.046 -          Stopping Toolkit
+2019-05-31 12:06:57.046 -          'LogMeInToolkit' process is not running.
+2019-05-31 12:06:57.046 -          Waiting for process 'LogMeInToolkit' to stop and remove from process list for maximum 30 seconds
+2019-05-31 12:06:57.046 -          'LogMeInToolkit' process stopped and not present in process list.
+2019-05-31 12:06:57.046 -          Cleanup GRPC from: C:\Program Files (x86)\LogMeIn\x64
+2019-05-31 12:06:57.046 -          Host GRPC cleaned up.
+2019-05-31 12:06:57.046 -          Uninstall Host
+2019-05-31 12:06:57.046 -          Active cert ID: 3d23527947f6be9de45c3ec1df73df8b
+2019-05-31 12:06:57.046 -          Cert found
+2019-05-31 12:07:11.785 -          Uninstall successful!
+2019-05-31 12:07:11.785 -    Step: Uninstalling: IgnitionInterface.Application.WinIgnitionApplication
+2019-05-31 12:07:11.785 -          Stopping Ignition
+2019-05-31 12:07:11.801 -          'LMIIgnition' process is not running.
+2019-05-31 12:07:11.801 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:07:11.801 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:07:11.801 -          Uninstall Ignition
+2019-05-31 12:07:11.801 -          Uninstall successful.
+2019-05-31 12:07:11.801 -    Step: Uninstalling: IgnitionInterface.Application.WinBorgApplication
+2019-05-31 12:07:11.801 -          Stopping Ignition
+2019-05-31 12:07:11.816 -          'LMIIgnition' process is not running.
+2019-05-31 12:07:11.816 -          Waiting for process 'LMIIgnition' to stop and remove from process list for maximum 15 seconds
+2019-05-31 12:07:11.816 -          'LMIIgnition' process stopped and not present in process list.
+2019-05-31 12:07:11.816 -          Uninstall Ignition
+2019-05-31 12:07:11.816 -          Uninstall successful.
+2019-05-31 12:07:11.816 -    Step: Uninstalling: PluginInterface.Application.WinClientPluginApplication
+2019-05-31 12:07:11.816 -    Step: Uninstalling: RAInterface.Application.RAApplication
+2019-05-31 12:07:11.832 -          Changing time to 05/31/2019 12:07:11
+2019-05-31 12:07:11.855 -          Changing OS time successful
+2019-05-31 12:07:11.869 -    Step: TestBase TearDown

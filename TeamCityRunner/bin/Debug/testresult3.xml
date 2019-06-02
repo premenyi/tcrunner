@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run start-time="2019-05-30 13:04:08Z">
+  <command-line><![CDATA[c:\nunit\bin\nunit3-console.exe  C:\ftp\nunitPlugin\lmiAutomation.dll --test LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall --out testresult.xml --result=testresult3.xml --out=buildlog.xml]]></command-line>
+</test-run>
