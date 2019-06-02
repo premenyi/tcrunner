@@ -145,11 +145,7 @@ at LMIAutomation.Host.HostTest.TestSetup() in C:\Users\premenyi\Documents\lmiaut
                             </assertion>
                         </assertions>
                     </test-case>
-                </test-suite>
-            </test-suite>
-            <test-suite type="TestSuite" id="0-1319" name="Ignition" fullname="LMIAutomation.Ignition" runstate="Runnable" testcasecount="39" result="Passed" start-time="2019-05-30 14:28:37Z" end-time="2019-05-30 14:31:58Z" duration="201.076291" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="33">
-                <test-suite type="TestFixture" id="0-1204" name="InstallTest" fullname="LMIAutomation.Ignition.InstallTest" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" testcasecount="3" result="Passed" start-time="2019-05-30 14:28:37Z" end-time="2019-05-30 14:31:58Z" duration="201.072863" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="33">
-                    <test-case id="0-1205" name="TC01_DefaultInstall" fullname="LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall" methodname="TC01_DefaultInstall" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="906113782" result="Passed" start-time="2019-05-30 14:28:37Z" end-time="2019-05-30 14:29:59Z" duration="81.732295" asserts="12">
+                     <test-case id="0-1205" name="TC01_DefaultInstall" fullname="LMIAutomation.Ignition.InstallTest.TC01_DefaultInstall" methodname="TC01_DefaultInstall" classname="LMIAutomation.Ignition.InstallTest" runstate="Runnable" seed="906113782" result="Passed" start-time="2019-05-30 14:28:37Z" end-time="2019-05-30 14:29:59Z" duration="81.732295" asserts="12">
                         <properties>
                             <property name="Category" value="nightly"/>
                         </properties>
